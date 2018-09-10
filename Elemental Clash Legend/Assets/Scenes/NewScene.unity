@@ -113,6 +113,23 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &144939212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 188322, guid: e92f6e57db53df642a211b14847db5f1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1230476190}
+--- !u!114 &144939217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 144939212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a4943b74b31d214b87c14ee10af6e8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
 --- !u!1 &173125606
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,27 +401,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11450860, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
       propertyPath: barColor.r
-      value: 1
+      value: 0.2991723
       objectReference: {fileID: 0}
     - target: {fileID: 11450860, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
       propertyPath: barColor.g
-      value: 0
+      value: 0.7830189
       objectReference: {fileID: 0}
     - target: {fileID: 11450860, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
       propertyPath: barColor.b
-      value: 0
+      value: 0.30106974
       objectReference: {fileID: 0}
     - target: {fileID: 11433706, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
       propertyPath: m_Color.r
-      value: 1
+      value: 0.2991723
       objectReference: {fileID: 0}
     - target: {fileID: 11433706, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.7830189
       objectReference: {fileID: 0}
     - target: {fileID: 11433706, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.30106974
       objectReference: {fileID: 0}
     - target: {fileID: 11450860, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
       propertyPath: colorMode
@@ -441,6 +458,10 @@ Prefab:
     - target: {fileID: 22461072, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
       propertyPath: m_LocalScale.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 188322, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
+      propertyPath: m_Name
+      value: healthBar
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e92f6e57db53df642a211b14847db5f1, type: 2}
