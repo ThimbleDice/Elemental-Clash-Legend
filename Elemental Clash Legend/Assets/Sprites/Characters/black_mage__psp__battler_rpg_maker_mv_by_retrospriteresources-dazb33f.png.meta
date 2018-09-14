@@ -1,7 +1,61 @@
 fileFormatVersion: 2
 guid: 0908d313510847244b7445fd3ae43d2f
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_0
+    21300002: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_1
+    21300004: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_2
+    21300006: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_3
+    21300008: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_4
+    21300010: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_5
+    21300012: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_6
+    21300014: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_7
+    21300016: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_8
+    21300018: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_9
+    21300020: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_10
+    21300022: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_11
+    21300024: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_12
+    21300026: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_13
+    21300028: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_14
+    21300030: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_15
+    21300032: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_16
+    21300034: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_17
+    21300036: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_18
+    21300038: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_19
+    21300040: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_20
+    21300042: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_21
+    21300044: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_22
+    21300046: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_23
+    21300048: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_24
+    21300050: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_25
+    21300052: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_26
+    21300054: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_27
+    21300056: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_28
+    21300058: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_29
+    21300060: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_30
+    21300062: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_31
+    21300064: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_32
+    21300066: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_33
+    21300068: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_34
+    21300070: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_35
+    21300072: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_36
+    21300074: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_37
+    21300076: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_38
+    21300078: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_39
+    21300080: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_40
+    21300082: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_41
+    21300084: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_42
+    21300086: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_43
+    21300088: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_44
+    21300090: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_45
+    21300092: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_46
+    21300094: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_47
+    21300096: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_48
+    21300098: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_49
+    21300100: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_50
+    21300102: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_51
+    21300104: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_52
+    21300106: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_53
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -45,7 +99,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 87
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,7 +191,1087 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 568
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cccc06981a881f44b2c01f1a3d7dd9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 568
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a91ae85c41f95d4db1755d0b026aeb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 568
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fe77bb2c640cb46b3e5aa87b4555af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_3
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 568
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfc07b64e7a60a48b5d82d1cd883726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 568
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1e4cf349ef95046a674331639a2284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_5
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 568
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52326d70571e3e41b639e1921915e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_6
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 568
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dce87f8d26777469a28421c3163dab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_7
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 568
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da2d8382c0919240b92548df53b658a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_8
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 568
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b44e548f4f210b49936da1cf96ac01a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 455
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8db59990ad0d504290fb257dae59155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 455
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d86351a89098b4db94e6cebf0a2378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 455
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b48ce5b1002bc14091e437679c1e141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 455
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c251cfb73fb2e442aa1f8b922f6397d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 455
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b6f70d4ba5def459be3c3bcea15f6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_14
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 455
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99bfcc46030c6d47a3c2277d4398c38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_15
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 455
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d5187982e7274ca463ef0eb3b4560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_16
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 455
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a788fccb2fea0174fae8b69b073ab44d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_17
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 455
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935ef09900b8ba34fba2caac01e7b6a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 341
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf6f52ed07b12c419a6abcd9980f66b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 341
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887e88f7d1c28a24398582d461e67c58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_20
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 341
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3def728fd8b3ede4d897d0b8aa690ed0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_21
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 341
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7d3f72e3dc65b4a914a1c8c853dcca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_22
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 341
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1b31876c1b2954fb794141dd98be36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_23
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 341
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f64c80257c7904a971124b4b2deeab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_24
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 341
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c196c18842867a84399467708767a3a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_25
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 341
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df0e9d942e2e16409744ed5dab13852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_26
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 341
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4ea454d899c694795c493798f1a420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 227
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a80704830298a140a3fae6deee7a6b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_28
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 227
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fb4afc99e69cd4ebc76f51240568cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_29
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 227
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2118861d80308b54b9283fa5fa485b92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_30
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 227
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4988ff25dbc8249a47ab089d3fbeaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_31
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 227
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79d0a3b6858f6e49b60ada63ae1ca2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_32
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 227
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a125f079f30755d44ad822a27caab249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_33
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 227
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca86820c5d83ca4fa4d7f67c7de3b96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_34
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 227
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec706202487d10f4a984e39c296b1e73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_35
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 227
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8cf53a3a0878d4bb9c65f8a9d87698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 113
+        width: 70
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57d2f8f57873274eb28e48bed21ecea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_37
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 113
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf9b399aa419fd4cbd882ad4426b73d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_38
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 113
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea6537484605614881943efe77d113b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_39
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 113
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13820e2a3e47b114ea1acbc722dc62b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_40
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 113
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad04eeff1445564f9c641c5b80222e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_41
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 113
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93766c1e6760a5646a4a4e4f731c5e41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_42
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 113
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9b574b328855a4abc4071c28781249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_43
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 113
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c03649a2d67ed43a9b1c350caf9610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_44
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 113
+        width: 69
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf95191c66f185946ae676059bfd9b05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_45
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d009cb20cd8764a9bcc8d8ce7510f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_46
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2159ddc3a582c4e98781e9c26c1f22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_47
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2975dd20e3ec18499a3d18f8ca63935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_48
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7f920035814a04bbd47a7f001af519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_49
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4bb91ec47c0704cb986fe6c18ba5bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_50
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d49ce5a186dbb34eb4737136828025c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_51
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9e265f52b409d4395ebffc67507540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_52
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a55b3f233bb0c4cae26a0ea68652aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_53
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 86
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25fb9bf4d625184098b6676d7272caa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
