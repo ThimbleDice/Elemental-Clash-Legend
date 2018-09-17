@@ -1,61 +1,61 @@
 fileFormatVersion: 2
-guid: 0908d313510847244b7445fd3ae43d2f
+guid: 20986a9d2ca63d9489fac6032d2cb3c4
 TextureImporter:
   fileIDToRecycleName:
-    21300000: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_0
-    21300002: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_1
-    21300004: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_2
-    21300006: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_3
-    21300008: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_4
-    21300010: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_5
-    21300012: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_6
-    21300014: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_7
-    21300016: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_8
-    21300018: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_9
-    21300020: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_10
-    21300022: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_11
-    21300024: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_12
-    21300026: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_13
-    21300028: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_14
-    21300030: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_15
-    21300032: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_16
-    21300034: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_17
-    21300036: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_18
-    21300038: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_19
-    21300040: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_20
-    21300042: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_21
-    21300044: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_22
-    21300046: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_23
-    21300048: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_24
-    21300050: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_25
-    21300052: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_26
-    21300054: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_27
-    21300056: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_28
-    21300058: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_29
-    21300060: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_30
-    21300062: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_31
-    21300064: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_32
-    21300066: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_33
-    21300068: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_34
-    21300070: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_35
-    21300072: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_36
-    21300074: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_37
-    21300076: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_38
-    21300078: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_39
-    21300080: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_40
-    21300082: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_41
-    21300084: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_42
-    21300086: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_43
-    21300088: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_44
-    21300090: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_45
-    21300092: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_46
-    21300094: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_47
-    21300096: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_48
-    21300098: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_49
-    21300100: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_50
-    21300102: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_51
-    21300104: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_52
-    21300106: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_53
+    21300000: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_0
+    21300002: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_1
+    21300004: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_2
+    21300006: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_3
+    21300008: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_4
+    21300010: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_5
+    21300012: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_6
+    21300014: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_7
+    21300016: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_8
+    21300018: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_9
+    21300020: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_10
+    21300022: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_11
+    21300024: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_12
+    21300026: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_13
+    21300028: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_14
+    21300030: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_15
+    21300032: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_16
+    21300034: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_17
+    21300036: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_18
+    21300038: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_19
+    21300040: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_20
+    21300042: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_21
+    21300044: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_22
+    21300046: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_23
+    21300048: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_24
+    21300050: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_25
+    21300052: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_26
+    21300054: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_27
+    21300056: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_28
+    21300058: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_29
+    21300060: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_30
+    21300062: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_31
+    21300064: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_32
+    21300066: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_33
+    21300068: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_34
+    21300070: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_35
+    21300072: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_36
+    21300074: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_37
+    21300076: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_38
+    21300078: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_39
+    21300080: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_40
+    21300082: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_41
+    21300084: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_42
+    21300086: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_43
+    21300088: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_44
+    21300090: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_45
+    21300092: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_46
+    21300094: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_47
+    21300096: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_48
+    21300098: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_49
+    21300100: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_50
+    21300102: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_51
+    21300104: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_52
+    21300106: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_53
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -193,13 +193,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_0
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_0
       rect:
         serializedVersion: 2
-        x: 22
+        x: 24
         y: 568
-        width: 69
-        height: 87
+        width: 66
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,19 +207,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cccc06981a881f44b2c01f1a3d7dd9a
+      spriteID: 6ce8fe707c456554c983e0452ebd7b7a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_1
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_1
       rect:
         serializedVersion: 2
-        x: 136
+        x: 138
         y: 568
-        width: 69
-        height: 87
+        width: 65
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,19 +227,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a91ae85c41f95d4db1755d0b026aeb5
+      spriteID: fee41bec28d3430468c2f2c3d2a62ab6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_2
       rect:
         serializedVersion: 2
-        x: 250
+        x: 252
         y: 568
-        width: 69
-        height: 87
+        width: 65
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,19 +247,199 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8fe77bb2c640cb46b3e5aa87b4555af
+      spriteID: 6030f24184d520645b5cc86ecefb3204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_3
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 568
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e867cee8b7198124285e534a0740214e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_4
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 568
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24256053c51481e469e89c0d390ce8dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_5
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 568
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14fbf218b858048a1705ddeb1fa472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 568
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164c85da3d93dee4faa4f9fcf999ac3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_7
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 568
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc9957183375c4409fd863eea357f2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 568
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1194ee5850085041b3e744b05939d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 455
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71754f8742c9e647ad9ef3113719cbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 455
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8bdf1aa315f014db6e69cd0c11ee87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 455
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ca7b99e0d2374da6586d1b51c2184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_12
       rect:
         serializedVersion: 2
         x: 364
-        y: 568
-        width: 69
-        height: 87
+        y: 455
+        width: 67
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,19 +447,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbfc07b64e7a60a48b5d82d1cd883726
+      spriteID: e819cdbd97b80e8498af0d08b1fd7f11
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_4
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_13
       rect:
         serializedVersion: 2
         x: 478
-        y: 568
-        width: 68
-        height: 87
+        y: 455
+        width: 67
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,19 +467,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a1e4cf349ef95046a674331639a2284
+      spriteID: 982058887e9ef3343a0a9a66817ec66a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_5
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_14
       rect:
         serializedVersion: 2
         x: 591
-        y: 568
-        width: 71
-        height: 87
+        y: 455
+        width: 67
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,19 +487,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a52326d70571e3e41b639e1921915e7d
+      spriteID: 6d26990cd2ecf114399339a9132a0882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_6
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_15
       rect:
         serializedVersion: 2
-        x: 705
-        y: 568
-        width: 69
-        height: 87
+        x: 703
+        y: 455
+        width: 75
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,59 +507,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4dce87f8d26777469a28421c3163dab
+      spriteID: cdaa64e94d052dd42bed0e61ed9c1929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_7
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_16
       rect:
         serializedVersion: 2
         x: 817
-        y: 568
-        width: 71
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7da2d8382c0919240b92548df53b658a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_8
-      rect:
-        serializedVersion: 2
-        x: 933
-        y: 568
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b44e548f4f210b49936da1cf96ac01a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_9
-      rect:
-        serializedVersion: 2
-        x: 22
         y: 455
-        width: 69
-        height: 86
+        width: 74
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,19 +527,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8db59990ad0d504290fb257dae59155
+      spriteID: eb2736546f0a72246879a43491b6ced1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_10
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_17
       rect:
         serializedVersion: 2
-        x: 136
+        x: 931
         y: 455
-        width: 69
-        height: 86
+        width: 74
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -407,159 +547,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9d86351a89098b4db94e6cebf0a2378
+      spriteID: c47c09c4ef2a67745b066315a168b28b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_11
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_18
       rect:
         serializedVersion: 2
-        x: 250
-        y: 455
-        width: 69
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b48ce5b1002bc14091e437679c1e141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_12
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 455
-        width: 67
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c251cfb73fb2e442aa1f8b922f6397d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_13
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 455
-        width: 67
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70b6f70d4ba5def459be3c3bcea15f6d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_14
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 455
-        width: 67
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e99bfcc46030c6d47a3c2277d4398c38
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_15
-      rect:
-        serializedVersion: 2
-        x: 705
-        y: 455
-        width: 69
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 235d5187982e7274ca463ef0eb3b4560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_16
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 455
-        width: 69
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a788fccb2fea0174fae8b69b073ab44d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_17
-      rect:
-        serializedVersion: 2
-        x: 933
-        y: 455
-        width: 69
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 935ef09900b8ba34fba2caac01e7b6a8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_18
-      rect:
-        serializedVersion: 2
-        x: 22
+        x: 24
         y: 341
-        width: 69
-        height: 87
+        width: 67
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,19 +567,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf6f52ed07b12c419a6abcd9980f66b
+      spriteID: 91b5fe04d8c82f947ad99664be0bd54e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_19
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_19
       rect:
         serializedVersion: 2
-        x: 136
+        x: 138
         y: 341
-        width: 69
-        height: 87
+        width: 67
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,19 +587,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 887e88f7d1c28a24398582d461e67c58
+      spriteID: 4134c91bc909aa74081066bb9997037f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_20
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_20
       rect:
         serializedVersion: 2
-        x: 250
+        x: 252
         y: 341
-        width: 69
-        height: 87
+        width: 67
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,19 +607,559 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3def728fd8b3ede4d897d0b8aa690ed0
+      spriteID: b0cb50110c298cd489da3de83c0acbca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_21
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_21
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394b3f3500fcbfe41b6a89759ab5e0b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8110118c33c0b16498d462b01a7655cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_23
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edb12ebf3ace4241af9eafd3c722a2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_24
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 341
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672e46c07ce007841a2a0dd79ba450c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_25
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 341
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a09cc0e0e3a6ae468bde0a032c01f19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_26
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 341
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8108c89f4bc0f9043a312e4e7d782a09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c877522e90388f4c81cc40acb16bb7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8693409fa1411bc408db7977b02e032b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_29
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add76921e3a1f814d96e2facfa9507ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_30
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04adebe24928ebf4089bfc0568c99fbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_31
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a64f7c1d570284086210500ca28fd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_32
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b2e28ac8b92e74db528efdd261c1c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_33
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 227
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda0009e22778f344af99bc0189e0364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_34
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 227
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c4b12927a76484e9ca091c313827d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_35
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 227
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb39c6e29efc83c4598316d36cf0d99c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_36
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 113
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cd5adb2d6e6844fbd17fdd546ee9c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 113
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a911c8e120f12374e9b1230ff4df39ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_38
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 113
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5a69d324e090e41b9bc73f5104eb07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_39
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 113
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b3c8e32bad4ca47aa4b892adb9f919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_40
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 113
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0658e551f16df8b49872be82a81add11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_41
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 113
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e9f5e8f169c7a41b79119a851e849b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_42
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 113
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4337300fb6d324bb72845263c70c9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_43
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 113
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb4522d55e0a304c82dbcd917ce2aad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_44
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 113
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b4b2ca9dcca0a44a4919337023e478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1941d6957138013409f9f73a029aee1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_46
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64372fbac8b64848bb595a70eb8991a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_47
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7d3ec30ec92044f95a116814edf055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_48
       rect:
         serializedVersion: 2
         x: 364
-        y: 341
-        width: 69
-        height: 87
+        y: 0
+        width: 67
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -627,19 +1167,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a7d3f72e3dc65b4a914a1c8c853dcca
+      spriteID: c78e6c828f14282479f4441413ef76dc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_22
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_49
       rect:
         serializedVersion: 2
         x: 478
-        y: 341
-        width: 68
-        height: 87
+        y: 0
+        width: 67
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,519 +1187,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c1b31876c1b2954fb794141dd98be36
+      spriteID: d71a80caf0a5b114f9fc384e9cf8b094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_23
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_50
       rect:
         serializedVersion: 2
         x: 591
-        y: 341
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34f64c80257c7904a971124b4b2deeab
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_24
-      rect:
-        serializedVersion: 2
-        x: 702
-        y: 341
-        width: 76
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c196c18842867a84399467708767a3a6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_25
-      rect:
-        serializedVersion: 2
-        x: 815
-        y: 341
-        width: 76
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6df0e9d942e2e16409744ed5dab13852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_26
-      rect:
-        serializedVersion: 2
-        x: 929
-        y: 341
-        width: 76
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed4ea454d899c694795c493798f1a420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_27
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 227
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a80704830298a140a3fae6deee7a6b5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_28
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 227
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12fb4afc99e69cd4ebc76f51240568cc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_29
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 227
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2118861d80308b54b9283fa5fa485b92
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_30
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 227
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c4988ff25dbc8249a47ab089d3fbeaf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_31
-      rect:
-        serializedVersion: 2
-        x: 478
-        y: 227
-        width: 68
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a79d0a3b6858f6e49b60ada63ae1ca2b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_32
-      rect:
-        serializedVersion: 2
-        x: 591
-        y: 227
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a125f079f30755d44ad822a27caab249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_33
-      rect:
-        serializedVersion: 2
-        x: 705
-        y: 227
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eca86820c5d83ca4fa4d7f67c7de3b96
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_34
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 227
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec706202487d10f4a984e39c296b1e73
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_35
-      rect:
-        serializedVersion: 2
-        x: 933
-        y: 227
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed8cf53a3a0878d4bb9c65f8a9d87698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_36
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 113
-        width: 70
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a57d2f8f57873274eb28e48bed21ecea
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_37
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 113
-        width: 71
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccf9b399aa419fd4cbd882ad4426b73d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_38
-      rect:
-        serializedVersion: 2
-        x: 248
-        y: 113
-        width: 71
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ea6537484605614881943efe77d113b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_39
-      rect:
-        serializedVersion: 2
-        x: 364
-        y: 113
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13820e2a3e47b114ea1acbc722dc62b7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_40
-      rect:
-        serializedVersion: 2
-        x: 478
-        y: 113
-        width: 68
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dad04eeff1445564f9c641c5b80222e9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_41
-      rect:
-        serializedVersion: 2
-        x: 591
-        y: 113
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93766c1e6760a5646a4a4e4f731c5e41
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_42
-      rect:
-        serializedVersion: 2
-        x: 705
-        y: 113
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b9b574b328855a4abc4071c28781249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_43
-      rect:
-        serializedVersion: 2
-        x: 819
-        y: 113
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37c03649a2d67ed43a9b1c350caf9610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_44
-      rect:
-        serializedVersion: 2
-        x: 933
-        y: 113
-        width: 69
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf95191c66f185946ae676059bfd9b05
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_45
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 0
-        width: 69
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7d009cb20cd8764a9bcc8d8ce7510f3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_46
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 0
-        width: 69
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c2159ddc3a582c4e98781e9c26c1f22
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_47
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 0
-        width: 69
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2975dd20e3ec18499a3d18f8ca63935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_48
-      rect:
-        serializedVersion: 2
-        x: 367
         y: 0
         width: 67
-        height: 86
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1167,53 +1207,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db7f920035814a04bbd47a7f001af519
+      spriteID: aaa9fdc9fee4e634396912198fb0130c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_49
-      rect:
-        serializedVersion: 2
-        x: 481
-        y: 0
-        width: 67
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b4bb91ec47c0704cb986fe6c18ba5bb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_50
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 0
-        width: 67
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d49ce5a186dbb34eb4737136828025c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_51
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_51
       rect:
         serializedVersion: 2
         x: 696
@@ -1227,13 +1227,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb9e265f52b409d4395ebffc67507540
+      spriteID: 33c3422e671a4b2478e88d68307415fd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_52
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_52
       rect:
         serializedVersion: 2
         x: 810
@@ -1247,13 +1247,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13a55b3f233bb0c4cae26a0ea68652aa
+      spriteID: 3767cdbfd6ff3c04ab789a2f6a9566ad
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: black_mage__psp__battler_rpg_maker_mv_by_retrospriteresources-dazb33f_53
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_53
       rect:
         serializedVersion: 2
         x: 924
@@ -1267,7 +1267,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a25fb9bf4d625184098b6676d7272caa
+      spriteID: 7b14e79960253a64c84a5079b2208055
       vertices: []
       indices: 
       edges: []
@@ -1275,7 +1275,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b213ad11ba602624090544db8cc71441
+    spriteID: dd963509b635b3d4e8ce9fc9dcd1b068
     vertices: []
     indices: 
     edges: []

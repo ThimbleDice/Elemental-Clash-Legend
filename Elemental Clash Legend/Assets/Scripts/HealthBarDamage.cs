@@ -1,22 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class HealthBarDamage : MonoBehaviour {
-
+public class HealthBarDamage : MonoBehaviour
+{
    public SimpleHealthBar healthBar;
     int damage = 10;
-    float health = 100;
+    float currentHealth = 100;
     float maxHealth = 100;
+    float mediumHealth = 50;
+    float criticalHealth = 25;
 
     // Use this for initialization
     void Start () {
-       
+    
     }
 	
 	// Update is called once per frame
 	void Update ()
-    {    
+    {
         TakeDamage();
     }
 
@@ -25,14 +25,22 @@ public class HealthBarDamage : MonoBehaviour {
         healthBar = GetComponent<SimpleHealthBar>();
     }
 
-    public void TakeDamage()
-    {
-     
-        if (Input.GetKeyDown("space"))
+    private void TakeDamage()
+    {   
+        if (Input.GetKeyDown("up"))
         {
-            health -= damage;
-            healthBar.UpdateBar(health, maxHealth);      
-            print("space key was pressed");
-        }   
+            currentHealth -= damage;
+            healthBar.UpdateBar(currentHealth, maxHealth);
+
+            if (currentHealth <= mediumHealth)
+            {
+                healthBar.UpdateColor(Color.yellow);
+            }
+
+            if (currentHealth <= criticalHealth)
+            {
+               healthBar.UpdateColor(Color.red);
+            }
+        }
     }
 }
