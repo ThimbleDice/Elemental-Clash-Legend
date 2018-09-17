@@ -1,0 +1,1288 @@
+fileFormatVersion: 2
+guid: 6744391320c3ff04aa2be7b13a2211b3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_0
+    21300002: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_1
+    21300004: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_2
+    21300006: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_3
+    21300008: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_4
+    21300010: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_5
+    21300012: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_6
+    21300014: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_7
+    21300016: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_8
+    21300018: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_9
+    21300020: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_10
+    21300022: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_11
+    21300024: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_12
+    21300026: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_13
+    21300028: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_14
+    21300030: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_15
+    21300032: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_16
+    21300034: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_17
+    21300036: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_18
+    21300038: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_19
+    21300040: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_20
+    21300042: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_21
+    21300044: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_22
+    21300046: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_23
+    21300048: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_24
+    21300050: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_25
+    21300052: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_26
+    21300054: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_27
+    21300056: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_28
+    21300058: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_29
+    21300060: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_30
+    21300062: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_31
+    21300064: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_32
+    21300066: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_33
+    21300068: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_34
+    21300070: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_35
+    21300072: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_36
+    21300074: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_37
+    21300076: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_38
+    21300078: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_39
+    21300080: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_40
+    21300082: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_41
+    21300084: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_42
+    21300086: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_43
+    21300088: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_44
+    21300090: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_45
+    21300092: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_46
+    21300094: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_47
+    21300096: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_48
+    21300098: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_49
+    21300100: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_50
+    21300102: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_51
+    21300104: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_52
+    21300106: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_53
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 87
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 568
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f292526c37ec544b9726032db2a667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 568
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6328a5089df2ad42a76cfdd0fdd8875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 568
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fb29d890c77fa4e8b03dc7807b2dce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 568
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ec2b0de7d8ee04ead1bed933f09aac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_4
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 568
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0727be1c130a04cbb06f2e60562b6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_5
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 568
+        width: 67
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700d7468d0058e6419a0d3612227f911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_6
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 568
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49bacca76b7e9e48bb8457878479e7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_7
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 568
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea51c21139f70864ea999e7e1758effe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_8
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 568
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5391fe6cfc265fc49a73ae8ab15d6081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 455
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873cc895e6779314da685f58c6f1e6dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_10
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 455
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12f809cfe784284aaeef6e4fddb84b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 455
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381e64e4dd0cb004fb99f21a61717aab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 455
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f829000705e1e34786b829ab7662852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_13
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 455
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eca5c7838f5044c8823ac205719d8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_14
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 455
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3619ab2e659e6428ac1d5f3f83b74f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_15
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 455
+        width: 57
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a6294dfee26e4f8ed2f1c7dea87bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_16
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 455
+        width: 57
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb5c5d50e320ab41bfcb50a00d6e666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_17
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 455
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e94ef9a2105dd4cbdb0df65fbf26e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 341
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad554eff805132449df5654f82036e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_19
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 341
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e7f3efd47552247a78508827c67daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 341
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7c9a8e6730296408c4250e7da9c72c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_21
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 341
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a022a616d74cc746bd647c6ba46560e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_22
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 341
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ba97695e1f36f4ab89248bf17b9e33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_23
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 341
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b0cdca2a8cb524eb110a3a7da36b2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_24
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 341
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5a5f8f1c8a51c429946e860fc1b03e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_25
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 341
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c9754500f0e3b40af52c3f4f410965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_26
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 341
+        width: 69
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa473262c58daa4f8e663ac14062c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_27
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 227
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934961bf15897884e9d8806b400ec470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_28
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 227
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0976d757a51667d458415885385ceb7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 227
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa11e193432b704ba18c2b4147ae37f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_30
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 227
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad072acbe2c1df459887b1810ee92ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_31
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 227
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5cc9c1740fbd45820c993dd821a8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_32
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 227
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03747b408121fb845a393e6e9ee52745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_33
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 227
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e9c2c24e3cbfb45b9d1cb004046624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_34
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 227
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d481a36dd16da4e8873e0a585610fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_35
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 227
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dec95a2fee11174094d9e5a769db32b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_36
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 113
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7ec18d05541ed458ed29fce9e4b7b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 113
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677c9c0e270ae0646bb8b132ca8caa7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_38
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 113
+        width: 61
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57300a107f3e0449b00ad378b14d81c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_39
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 113
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db2b3116a52aec4488179c120580ec7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_40
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 113
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc654fcced84f1140a8f100d978c5035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_41
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 113
+        width: 60
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67683345449a3424faf417d9f00edf2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_42
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 113
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991bedee35f139d43a62b576e3805a48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_43
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 113
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c4e8cf23a6f674cb6769cb5b8a87bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_44
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 113
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16092f3d4d97a4e43971460d37dd89b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_45
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55f6326bf230940885e685d09b5b15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_46
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 0
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5177ec21c0ee5a4694a5bae334cf0d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_47
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 59
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8880b3a1ae03143a551a1105641fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_48
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950eca833f1b5fa4caa8c90b5944cef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_49
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514686600a88b5a49907bef1463a27ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_50
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 0
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013ee4155e63e884d8d57187ce5a1faf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_51
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7403f2397b2c4bc4a881abcea5f3bc1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_52
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 87
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ed6a64fabf99943b3aa78e31264389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior__psp__battler_rpg_maker_mv_by_retrospriteresources-daxcjvf_53
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d12e1ad8e84d624f9ed4fa1e65da7af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d57e77f232d328a42b2587daded1fb6c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

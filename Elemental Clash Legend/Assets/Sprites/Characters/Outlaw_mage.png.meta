@@ -1,0 +1,1288 @@
+fileFormatVersion: 2
+guid: 20986a9d2ca63d9489fac6032d2cb3c4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_0
+    21300002: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_1
+    21300004: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_2
+    21300006: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_3
+    21300008: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_4
+    21300010: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_5
+    21300012: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_6
+    21300014: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_7
+    21300016: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_8
+    21300018: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_9
+    21300020: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_10
+    21300022: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_11
+    21300024: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_12
+    21300026: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_13
+    21300028: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_14
+    21300030: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_15
+    21300032: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_16
+    21300034: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_17
+    21300036: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_18
+    21300038: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_19
+    21300040: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_20
+    21300042: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_21
+    21300044: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_22
+    21300046: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_23
+    21300048: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_24
+    21300050: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_25
+    21300052: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_26
+    21300054: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_27
+    21300056: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_28
+    21300058: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_29
+    21300060: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_30
+    21300062: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_31
+    21300064: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_32
+    21300066: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_33
+    21300068: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_34
+    21300070: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_35
+    21300072: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_36
+    21300074: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_37
+    21300076: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_38
+    21300078: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_39
+    21300080: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_40
+    21300082: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_41
+    21300084: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_42
+    21300086: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_43
+    21300088: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_44
+    21300090: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_45
+    21300092: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_46
+    21300094: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_47
+    21300096: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_48
+    21300098: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_49
+    21300100: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_50
+    21300102: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_51
+    21300104: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_52
+    21300106: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_53
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 87
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 568
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce8fe707c456554c983e0452ebd7b7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 568
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee41bec28d3430468c2f2c3d2a62ab6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 568
+        width: 65
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6030f24184d520645b5cc86ecefb3204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 568
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e867cee8b7198124285e534a0740214e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_4
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 568
+        width: 66
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24256053c51481e469e89c0d390ce8dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_5
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 568
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14fbf218b858048a1705ddeb1fa472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 568
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164c85da3d93dee4faa4f9fcf999ac3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_7
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 568
+        width: 70
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc9957183375c4409fd863eea357f2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 568
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1194ee5850085041b3e744b05939d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 455
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71754f8742c9e647ad9ef3113719cbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 455
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8bdf1aa315f014db6e69cd0c11ee87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 455
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ca7b99e0d2374da6586d1b51c2184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_12
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 455
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e819cdbd97b80e8498af0d08b1fd7f11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_13
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 455
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982058887e9ef3343a0a9a66817ec66a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_14
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 455
+        width: 67
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d26990cd2ecf114399339a9132a0882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_15
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 455
+        width: 75
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaa64e94d052dd42bed0e61ed9c1929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_16
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 455
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2736546f0a72246879a43491b6ced1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_17
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 455
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47c09c4ef2a67745b066315a168b28b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_18
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b5fe04d8c82f947ad99664be0bd54e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4134c91bc909aa74081066bb9997037f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_20
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cb50110c298cd489da3de83c0acbca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_21
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394b3f3500fcbfe41b6a89759ab5e0b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8110118c33c0b16498d462b01a7655cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_23
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 341
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edb12ebf3ace4241af9eafd3c722a2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_24
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 341
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672e46c07ce007841a2a0dd79ba450c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_25
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 341
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a09cc0e0e3a6ae468bde0a032c01f19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_26
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 341
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8108c89f4bc0f9043a312e4e7d782a09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_27
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c877522e90388f4c81cc40acb16bb7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8693409fa1411bc408db7977b02e032b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_29
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add76921e3a1f814d96e2facfa9507ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_30
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04adebe24928ebf4089bfc0568c99fbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_31
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a64f7c1d570284086210500ca28fd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_32
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 227
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b2e28ac8b92e74db528efdd261c1c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_33
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 227
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda0009e22778f344af99bc0189e0364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_34
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 227
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c4b12927a76484e9ca091c313827d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_35
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 227
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb39c6e29efc83c4598316d36cf0d99c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_36
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 113
+        width: 64
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cd5adb2d6e6844fbd17fdd546ee9c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_37
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 113
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a911c8e120f12374e9b1230ff4df39ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_38
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 113
+        width: 63
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5a69d324e090e41b9bc73f5104eb07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_39
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 113
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b3c8e32bad4ca47aa4b892adb9f919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_40
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 113
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0658e551f16df8b49872be82a81add11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_41
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 113
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e9f5e8f169c7a41b79119a851e849b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_42
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 113
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4337300fb6d324bb72845263c70c9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_43
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 113
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb4522d55e0a304c82dbcd917ce2aad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_44
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 113
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b4b2ca9dcca0a44a4919337023e478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_45
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 66
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1941d6957138013409f9f73a029aee1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_46
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64372fbac8b64848bb595a70eb8991a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_47
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 65
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7d3ec30ec92044f95a116814edf055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_48
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 67
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78e6c828f14282479f4441413ef76dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_49
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 0
+        width: 67
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71a80caf0a5b114f9fc384e9cf8b094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_50
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 0
+        width: 67
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa9fdc9fee4e634396912198fb0130c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_51
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c3422e671a4b2478e88d68307415fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_52
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3767cdbfd6ff3c04ab789a2f6a9566ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief__psp__battler_rpg_maker_mv_by_retrospriteresources-daxkcg6_53
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 0
+        width: 86
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b14e79960253a64c84a5079b2208055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dd963509b635b3d4e8ce9fc9dcd1b068
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
