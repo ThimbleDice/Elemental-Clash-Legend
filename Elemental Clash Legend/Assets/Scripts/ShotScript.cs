@@ -1,21 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ShotScript : MonoBehaviour {
+/// <summary>
+/// Comportement des tirs
+/// </summary>
+public class ShotScript : MonoBehaviour
+{
+    // 1 - Designer variables
 
-    // Use this for initialization
+    /// <summary>
+    /// Points de dégâts infligés
+    /// </summary>
     public int damage = 1;
+
+    /// <summary>
+    /// Projectile ami ou ennemi ?
+    /// </summary>
     public bool isEnemyShot = false;
-    [SerializeField] GameObject Bullet;
-    void Start () {
-        Destroy(gameObject, 20);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        GameObject newBullet = (GameObject)Instantiate(Bullet) as GameObject;
-        //Instantiate(Bullet, bulletEmitter.transform.position = new Vector2(5,5), bulletEmitter.transform.rotation);
-        newBullet.transform.position = new Vector2(10, 10);
+
+    void Start()
+    {
+        // 2 - Destruction programmée
+        Destroy(gameObject, 20); // 20sec
     }
 }

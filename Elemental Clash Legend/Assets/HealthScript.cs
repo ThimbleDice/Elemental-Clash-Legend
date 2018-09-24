@@ -1,32 +1,39 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class HealthScript : MonoBehaviour {
+/// <summary>
+/// Gestion des points de vie et des dégâts
+/// </summary>
+public class HealthScript : MonoBehaviour
+{
+    /// <summary>
+    /// Points de vies
+    /// </summary>
     public int hp = 1;
-    public bool isEnemy = true;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    /// <summary>
+    /// Ennemi ou joueur ?
+    /// </summary>
+    public bool isEnemy = true;
+
+    void OnTriggerEnter2D(Collider2D collider)
     {
+        // Est-ce un tir ?
         ShotScript shot = collider.gameObject.GetComponent<ShotScript>();
-        if(shot != null)
+        if (shot != null)
         {
-            if(shot.isEnemyShot != isEnemy)
+            // Tir allié
+            if (shot.isEnemyShot != isEnemy)
             {
                 hp -= shot.damage;
+
+                // Destruction du projectile
+                // On détruit toujours le gameObject associé
+                // sinon c'est le script qui serait détruit avec ""this""
                 Destroy(shot.gameObject);
 
                 if (hp <= 0)
                 {
+                    // Destruction !
                     Destroy(gameObject);
                 }
             }
