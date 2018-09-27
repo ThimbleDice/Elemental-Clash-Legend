@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 61081457820977482}
   - component: {fileID: 212062841935394350}
   - component: {fileID: 50090626730126356}
-  - component: {fileID: 114600880305756854}
   - component: {fileID: 114603547024003338}
+  - component: {fileID: 95898510040665160}
   m_Layer: 0
   m_Name: PlayerTEST
   m_TagString: Untagged
@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1049573181129812}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.148, y: 0.257, z: 0.109300636}
+  m_LocalPosition: {x: -3.566804, y: 1.3658198, z: 0.109300636}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &61081457820977482
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -89,17 +89,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 1}
   m_EdgeRadius: 0
---- !u!114 &114600880305756854
-MonoBehaviour:
+--- !u!95 &95898510040665160
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1049573181129812}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f873dbd15141e5346b77ccf31795564e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4516aeccec30d8144b7812ef6dd70f65, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114603547024003338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -113,8 +120,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minGroundNormalY: 0.65
   gravityModifier: 1
-  maxSpeed: 7
-  jumpTakeOffSpeed: 7
+  maxSpeed: 4
+  jumpTakeOffSpeed: 10
 --- !u!212 &212062841935394350
 SpriteRenderer:
   m_ObjectHideFlags: 1
