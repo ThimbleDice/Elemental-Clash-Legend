@@ -7,6 +7,7 @@ public class MoveScript : MonoBehaviour
 {
     // 1 - Designer variables
     protected Rigidbody2D rigidbody2D;
+    
     /// <summary>
     /// Vitesse de déplacement
     /// </summary>
@@ -33,7 +34,10 @@ public class MoveScript : MonoBehaviour
     void FixedUpdate()
     {
         // Application du mouvement
-
         rigidbody2D.velocity = movement;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(gameObject);
     }
 }

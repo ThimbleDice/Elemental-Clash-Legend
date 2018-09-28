@@ -22,7 +22,7 @@ public class FireGun : MonoBehaviour {
             var fire1 = Input.GetAxis("Jump");
             if (fire1 > 0)
             {
-                Instantiate(Bullet/*, bulletEmitter.transform.position, bulletEmitter.transform.rotation*/);
+                Instantiate(Bullet, bulletEmitter.transform.position, bulletEmitter.transform.rotation);
                 timerLastShot = 0;
             }
         }
