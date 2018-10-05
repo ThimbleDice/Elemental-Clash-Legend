@@ -7,6 +7,7 @@ public class PlayerPlatformerController : PhysicsObject
 
     public float maxSpeed = 100;
     public float jumpTakeOffSpeed = 7;
+    [SerializeField] Animator playerAnim;
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
@@ -26,6 +27,7 @@ public class PlayerPlatformerController : PhysicsObject
 
         if (Input.GetButtonDown("Jump") && grounded)
         {
+            playerAnim.Play("JumpingRight");
             velocity.y = jumpTakeOffSpeed;
         }
         else if (Input.GetButtonUp("Jump"))
@@ -36,10 +38,18 @@ public class PlayerPlatformerController : PhysicsObject
             }
         }
 
-        bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
-        if (flipSprite)
+        //bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
+        if (move.x == 0.00f)
         {
-            spriteRenderer.flipX = !spriteRenderer.flipX;
+
+        }
+        else if (move.x > 0.01f)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (move.x < 0.01f)
+        {
+            spriteRenderer.flipX = true;
         }
 
         animator.SetBool("grounded", grounded);
