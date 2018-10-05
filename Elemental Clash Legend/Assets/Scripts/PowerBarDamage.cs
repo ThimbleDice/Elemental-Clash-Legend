@@ -2,7 +2,7 @@
 
 public class PowerBarDamage : MonoBehaviour
 {
-   public SimpleHealthBar powerBar;
+    public SimpleHealthBar powerBar;
     int power = 10;
     float currentPower = 100;
     float maxPower = 100;
@@ -23,6 +23,27 @@ public class PowerBarDamage : MonoBehaviour
     private void Awake()
     {
         powerBar = GetComponent<SimpleHealthBar>();
+    }
+
+    public void IncreasePower()
+    {
+            currentPower += power;
+            powerBar.UpdateBar(currentPower, maxPower);
+
+            if (currentPower <= mediumPower)
+            {
+                powerBar.UpdateColor(Color.cyan);
+            }
+
+            if (currentPower <= criticalPower)
+            {
+                powerBar.UpdateColor(Color.white);
+            }
+
+             if (currentPower >= mediumPower)
+             {
+                 powerBar.UpdateColor(Color.blue);
+             }
     }
 
     private void DicreasePower()
