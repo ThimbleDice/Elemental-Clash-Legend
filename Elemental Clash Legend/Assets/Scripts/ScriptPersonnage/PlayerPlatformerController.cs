@@ -37,17 +37,26 @@ public class PlayerPlatformerController : PhysicsObject
                 velocity.y = velocity.y * 0.5f;
             }
         }
+        else if (Input.GetButtonDown("Horizontal") && grounded)
+        {
+            playerAnim.Play("WalkingRight");
+        }
+        else if (Input.GetButtonDown("Fire1") && grounded)
+        {
+            playerAnim.Play("DeathRight");
+        }
+
 
         //bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
         if (move.x == 0.00f)
         {
 
         }
-        else if (move.x > 0.01f)
+        else if (move.x > 0.00f)
         {
             spriteRenderer.flipX = false;
         }
-        else if (move.x < 0.01f)
+        else if (move.x < 0.00f)
         {
             spriteRenderer.flipX = true;
         }
