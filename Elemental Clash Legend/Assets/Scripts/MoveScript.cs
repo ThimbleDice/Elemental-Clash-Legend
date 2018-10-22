@@ -7,7 +7,7 @@ public class MoveScript : MonoBehaviour
 {
     // 1 - Designer variables
     protected Rigidbody2D rigidbody2D;
-    
+    private GameObject fleche;
     /// <summary>
     /// Vitesse de déplacement
     /// </summary>
@@ -16,12 +16,17 @@ public class MoveScript : MonoBehaviour
     /// Direction
     /// </summary>
     public Vector2 direction = new Vector2(-1, 0);
-
+    
     private Vector2 movement;
 
     private void Awake()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+    }
+
+    void Start()
+    {
+        fleche = GameObject.FindGameObjectWithTag("Direction");
     }
     void Update()
     {
