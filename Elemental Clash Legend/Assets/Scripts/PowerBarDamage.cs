@@ -2,7 +2,7 @@
 
 public class PowerBarDamage : MonoBehaviour
 {
-    public SimpleHealthBar powerBar;
+    private SimpleHealthBar powerBar;
     int power = 10;
     float currentPower = 100;
     float maxPower = 100;
@@ -22,7 +22,7 @@ public class PowerBarDamage : MonoBehaviour
 
     private void Awake()
     {
-        powerBar = GetComponent<SimpleHealthBar>();
+        powerBar = GetComponentInChildren<SimpleHealthBar>();
     }
 
     public void IncreasePower()
