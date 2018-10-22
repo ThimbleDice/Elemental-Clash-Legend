@@ -40,7 +40,7 @@ public class HealthBarDamage : MonoBehaviour
                 healthBar.UpdateColor(Color.red);
             }
 
-            if (currentHealth >= criticalHealth)
+            if (currentHealth >= mediumHealth)
             {
                 healthBar.UpdateColor(Color.green);
             }

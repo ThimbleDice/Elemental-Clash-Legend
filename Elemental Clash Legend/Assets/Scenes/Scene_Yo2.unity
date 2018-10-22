@@ -594,6 +594,21 @@ Prefab:
       propertyPath: powerBar
       value: 
       objectReference: {fileID: 152777522}
+    - target: {fileID: 114653146494366828, guid: dc9fe63d68755544da6b85441b0558dd,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114653146494366828, guid: dc9fe63d68755544da6b85441b0558dd,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114653146494366828, guid: dc9fe63d68755544da6b85441b0558dd,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.008064508
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc9fe63d68755544da6b85441b0558dd, type: 2}
   m_IsPrefabAsset: 0
