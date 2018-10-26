@@ -39,10 +39,16 @@ public class MoveScript : MonoBehaviour
     void FixedUpdate()
     {
         // Application du mouvement
-        rigidbody2D.velocity = movement;
+        
+        rigidbody2D.velocity = transform.right;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //utiliser on trigger quand pas de gravité/rigidbody
     }
 }
