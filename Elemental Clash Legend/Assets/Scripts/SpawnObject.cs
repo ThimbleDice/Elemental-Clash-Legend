@@ -10,21 +10,18 @@ public class SpawnObject : MonoBehaviour {
     Quaternion rotationObjet;
     float randomPositionX;
     float randomPositionY;
+    public float spawnTime = 1f;
 
     // Use this for initialization
     void Start () {
         rotationObjet = new Quaternion(0,0,0,0);
         randomizePosition();
-        InstantiatieObjet();
+        InvokeRepeating("InstantiatieObjet", spawnTime, spawnTime);
     }
 	
 	// Update is called once per frame
 	void Update () {
         randomizePosition();
-        if (Input.GetKeyDown("space"))
-        {
-            InstantiatieObjet();
-        }
     }
 
     private void InstantiatieObjet()

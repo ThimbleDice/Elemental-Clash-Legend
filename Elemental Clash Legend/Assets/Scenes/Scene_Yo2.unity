@@ -400,6 +400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetAFaireApparaitre: {fileID: 205045718}
   objetAFaireApparaitre2: {fileID: 917726635}
+  spawnTime: 3
 --- !u!114 &980020867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -562,7 +563,7 @@ Prefab:
       objectReference: {fileID: 275840926}
     - target: {fileID: 4616102966920636, guid: dc9fe63d68755544da6b85441b0558dd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -550.61
       objectReference: {fileID: 0}
     - target: {fileID: 114037704905014016, guid: dc9fe63d68755544da6b85441b0558dd,
         type: 2}
@@ -608,6 +609,26 @@ Prefab:
         type: 2}
       propertyPath: m_Color.b
       value: 0.008064508
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616102966920636, guid: dc9fe63d68755544da6b85441b0558dd, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.2821
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616102966920636, guid: dc9fe63d68755544da6b85441b0558dd, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 52.044
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616102966920636, guid: dc9fe63d68755544da6b85441b0558dd, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 32.268528
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616102966920636, guid: dc9fe63d68755544da6b85441b0558dd, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 32.268528
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616102966920636, guid: dc9fe63d68755544da6b85441b0558dd, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 64.537056
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc9fe63d68755544da6b85441b0558dd, type: 2}
