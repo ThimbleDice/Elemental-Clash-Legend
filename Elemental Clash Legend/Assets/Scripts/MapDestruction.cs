@@ -6,16 +6,16 @@ using UnityEngine.Tilemaps;
 public class MapDestruction : MonoBehaviour {
 
     [SerializeField] public float DestructionRadius = 1;
-    [SerializeField] public GameObject tilemapGameObject;
     [SerializeField] public float MapScale = 1.0f;
+    [SerializeField] public int MaxHit = 1;
 
-    Tilemap tilemap;
+    private GameObject tilemapGameObject;
+    private Tilemap tilemap;
+    private int hitCount = 0;
 
     void Start () {
-        if (tilemapGameObject != null)
-        {
-            tilemap = tilemapGameObject.GetComponent<Tilemap>();
-        }
+        tilemapGameObject = GameObject.FindGameObjectWithTag("MapSolid");
+        tilemap = tilemapGameObject.GetComponent<Tilemap>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -34,6 +34,15 @@ public class MapDestruction : MonoBehaviour {
                     tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
                 }
             }
+            destroyObject();
         }
+
+    }
+
+    private void destroyObject()
+    {
+        hitCount++;
+        if (hitCount >= MaxHit)
+            Destroy(gameObject);
     }
 }
