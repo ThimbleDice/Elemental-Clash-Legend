@@ -229,11 +229,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114603547024003338, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49,
-        type: 2}
-      propertyPath: playerAnim
-      value: 
-      objectReference: {fileID: 1632379075}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
   m_IsPrefabAsset: 0
@@ -29207,8 +29202,3 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f058edf5ef26e5c4da3f1419b1660af2, type: 2}
   m_IsPrefabAsset: 0
---- !u!95 &1632379075 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95898510040665160, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49,
-    type: 2}
-  m_PrefabInternal: {fileID: 320176103}
