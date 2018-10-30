@@ -45,19 +45,17 @@ public class PlayerPlatformerController : PhysicsObject
         }
         else if (Input.GetButtonDown("Horizontal") && grounded)
         {
-            playerAnim.Play("WalkingRight");
+            velocity.x = move.x;
         }
+
         else if (Input.GetButtonDown("Fire1") && grounded)
         {
+            //mettre l'event de mourrir
             playerAnim.Play("DeathRight");
-        }
-        else if (velocity.y < -1)
-        {
-            //animator.SetBool("Jump", false);
-            print("cho");
         }
 
         animator.SetFloat("YVelocity", velocity.y);
+        animator.SetFloat("XVelocity", velocity.x);
         
 
 
