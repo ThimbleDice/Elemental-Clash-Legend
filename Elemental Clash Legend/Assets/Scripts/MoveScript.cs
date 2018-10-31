@@ -19,8 +19,7 @@ public class MoveScript : MonoBehaviour
 
     private void Awake()
     {
-        //rigidbody2D = GetComponent<Rigidbody2D>();
-        effet = GameObject.FindGameObjectWithTag("Effet");
+        rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     void Start()
@@ -32,10 +31,7 @@ public class MoveScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Application du mouvement
-
-        //rigidbody2D.velocity = transform.right * speed;
-        effet.transform.Translate(transform.right);
+        transform.Translate(new Vector2(1,0));
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
