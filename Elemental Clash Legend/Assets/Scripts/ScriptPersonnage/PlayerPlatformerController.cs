@@ -39,9 +39,9 @@ public class PlayerPlatformerController : PhysicsObject
                 velocity.y = velocity.y * 0.5f;
             }
         }
-        else if(grounded)
+        else if (grounded)
         {
-           animator.SetBool("Jump", false);
+            animator.SetBool("Jump", false);
         }
         else if (Input.GetButtonDown("Horizontal") && grounded)
         {
@@ -51,16 +51,19 @@ public class PlayerPlatformerController : PhysicsObject
         else if (Input.GetButtonDown("Fire1") && grounded)
         {
             //mettre l'event de mourrir
+            animator.SetBool("Death", true);
             playerAnim.Play("DeathRight");
         }
+        else if (Input.GetButtonDown("Fire2") && grounded)
+        {
+            playerAnim.Play("TakingDamageRight");
+            animator.SetBool("Death", true);
+        }
+
 
         animator.SetFloat("YVelocity", velocity.y);
         animator.SetFloat("XVelocity", velocity.x);
         
-
-
-
-
 
         //bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
         if (move.x == 0.00f)
