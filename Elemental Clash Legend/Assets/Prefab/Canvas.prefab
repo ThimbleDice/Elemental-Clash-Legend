@@ -407,6 +407,7 @@ MonoBehaviour:
   gravityModifier: 1
   maxSpeed: 7
   jumpTakeOffSpeed: 10
+  playerAnim: {fileID: 0}
 --- !u!114 &114640010958188966
 MonoBehaviour:
   m_ObjectHideFlags: 1
