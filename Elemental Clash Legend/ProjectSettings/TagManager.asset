@@ -4,6 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Direction
+  - MapSolid
+  - OutOfMap
   - ObjetPotion
   - ObjetSante
   layers:
