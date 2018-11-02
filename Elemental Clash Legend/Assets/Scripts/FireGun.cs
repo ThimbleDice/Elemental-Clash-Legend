@@ -23,9 +23,10 @@ public class FireGun : MonoBehaviour {
         timerLastShot += Time.deltaTime;
         if (timerLastShot > fireRate)
         {
-            var fire1 = Input.GetAxis("Jump");
+            var fire1 = Input.GetAxis("Fire1");
             if (fire1 > 0)
             {
+                Bullet.GetComponent<MoveScript>().speed = fleche.transform.localScale.x * Bullet.GetComponent<MoveScript>().speedMutiplier;
                 //print(fleche.rotation);
                 Instantiate(Bullet, bulletEmitter.transform.position, fleche.transform.rotation);
                 //Bullet.transform.rotation = fleche.transform.rotation;

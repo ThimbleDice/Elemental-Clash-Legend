@@ -26,16 +26,14 @@ public class SpawnObject : MonoBehaviour {
 
     private void InstantiatieObjet()
     {
-        objetAFaireApparaitre = GameObject.FindWithTag("ObjetSante");
-        objetAFaireApparaitre2 = GameObject.FindWithTag("ObjetPotion");
         Instantiate(objetAFaireApparaitre, endroit_a_apparaitre, rotationObjet);
         Instantiate(objetAFaireApparaitre2, endroit_a_apparaitre, rotationObjet);
     }
 
     void randomizePosition()
     {
-        randomPositionX = Random.Range(-4, 8);
-        randomPositionY = Random.Range(-4, 1);
+        randomPositionX = Random.Range(-4.0f, 8.0f);
+        randomPositionY = 5;
         endroit_a_apparaitre = new Vector3(randomPositionX, randomPositionY, 0);
     }
 }

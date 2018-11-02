@@ -5,18 +5,20 @@ using UnityEngine.UI;
 
 public class CountPotion : MonoBehaviour {
 
-    public Text potionHealth;
-    public Text potionPower;
+    private Text potionHealth;
+    private Text potionPower;
     int numberPotionHealth = 0;
     int numberPotionPower = 0;
 
     // Use this for initialization
     void Start () {
-        
+        potionHealth = GameObject.FindGameObjectWithTag("potionHealthHUD").GetComponent<Text>();
+        potionPower = GameObject.FindGameObjectWithTag("potionPowerHUD").GetComponent<Text>();
     }
 
     // Update is called once per frame
     void Update () {
+
         potionHealth.text = "Potion de vie : " + numberPotionHealth.ToString();
         potionPower.text = "Potion de pouvoir : " + numberPotionPower.ToString();
     }

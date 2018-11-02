@@ -6,11 +6,13 @@
 public class MoveScript : MonoBehaviour
 {
     // 1 - Designer variables
-    //protected Rigidbody2D rigidbody2D;
+    protected Rigidbody2D rigidbody2D;
     /// <summary>
     /// Vitesse de déplacement
     /// </summary>
+    [HideInInspector]
     public float speed = 1.0f;
+    public float speedMutiplier = 1.0f;
     private GameObject effet;
     
 
@@ -19,7 +21,7 @@ public class MoveScript : MonoBehaviour
 
     private void Awake()
     {
-        //rigidbody2D = GetComponent<Rigidbody2D>();
+        rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     void Start()
@@ -31,8 +33,8 @@ public class MoveScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        transform.Translate(new Vector2(1*speed,0));
-        //rigidbody2D.velocity = transform.right * speed;
+        //transform.Translate(new Vector2(1*speed,0));
+        rigidbody2D.velocity = transform.right * speed;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

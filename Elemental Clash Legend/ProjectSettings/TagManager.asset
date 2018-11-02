@@ -9,6 +9,8 @@ TagManager:
   - OutOfMap
   - ObjetPotion
   - ObjetSante
+  - potionHealthHUD
+  - potionPowerHUD
   layers:
   - Default
   - TransparentFX
