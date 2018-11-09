@@ -18,9 +18,11 @@ public class CountPotion : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-
-        potionHealth.text = "Potion de vie : " + numberPotionHealth.ToString();
-        potionPower.text = "Potion de pouvoir : " + numberPotionPower.ToString();
+        if(potionHealth != null && potionPower != null)
+        {
+            potionHealth.text = "Potion de vie : " + numberPotionHealth.ToString();
+            potionPower.text = "Potion de pouvoir : " + numberPotionPower.ToString();
+        }
     }
 
     public void CountPotionHealthWhenTouch()

@@ -25,7 +25,11 @@ public class PlayerPlatformerController : PhysicsObject
 
         move.x = Input.GetAxis("Horizontal");
 
+        PlayerInput();
+        if (grounded)
+            animator.SetBool("Jump", false);
 
+        /*
         if (Input.GetButtonDown("Jump") && grounded)
         {
             //playerAnim.Play("JumpingRight");
@@ -47,7 +51,6 @@ public class PlayerPlatformerController : PhysicsObject
         {
             velocity.x = move.x;
         }
-
         else if (Input.GetButtonDown("Fire1") && grounded)
         {
             //mettre l'event de mourrir
@@ -59,6 +62,7 @@ public class PlayerPlatformerController : PhysicsObject
             playerAnim.Play("TakingDamageRight");
             animator.SetBool("Death", true);
         }
+        */
 
 
         animator.SetFloat("YVelocity", velocity.y);
@@ -84,4 +88,59 @@ public class PlayerPlatformerController : PhysicsObject
 
         targetVelocity = move * maxSpeed;
     }
+
+    public void PlayerInput()
+    {
+        if (Input.GetButtonDown("Jump") && grounded)
+        {
+
+        }
+        else if (Input.GetButtonUp("Jump"))
+        {
+
+        }
+        else if (Input.GetButtonDown("Horizontal") && grounded)
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.P) && grounded)
+        {
+
+        }
+    }
+
+    public void StartJump()
+    {
+        animator.SetBool("Jump", true);
+        velocity.y = jumpTakeOffSpeed;
+    }
+
+    public void DecreaseJumpVelocity()
+    {
+        if (velocity.y > 0)
+            velocity.y = velocity.y * 0.5f;
+    }
+
+    public void GetGrounded()
+    {
+        animator.SetBool("Jump", false);
+    }
+
+    public void HorizontalMouvement()
+    {
+        velocity.x = Input.GetAxis("Horizontal");
+    }
+
+    public void Die()
+    {
+        animator.SetBool("Death", true);
+        playerAnim.Play("DeathRight");
+    }
+
+    public void TakeDamage()
+    {
+        playerAnim.Play("TakingDamageRight");
+        animator.SetBool("Death", true);
+    }
+
 }
