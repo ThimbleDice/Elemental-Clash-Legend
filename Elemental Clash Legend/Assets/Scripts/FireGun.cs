@@ -6,12 +6,15 @@ public class FireGun : MonoBehaviour {
     [SerializeField] GameObject Bullet;
     [SerializeField] float fireRate = 1;
     [SerializeField] GameObject bulletEmitter;
+
     private GameObject fleche;
+
     // Use this for initialization
     private float timerLastShot = 0;
     void Start()
     {
         fleche = GameObject.FindGameObjectWithTag("Direction");
+
     }
 
     // Update is called once per frame
@@ -27,8 +30,8 @@ public class FireGun : MonoBehaviour {
             if (fire1 > 0)
             {
                 Bullet.GetComponent<MoveScript>().speed = fleche.transform.localScale.x * Bullet.GetComponent<MoveScript>().speedMutiplier;
-                //print(fleche.rotation);
                 Instantiate(Bullet, bulletEmitter.transform.position, fleche.transform.rotation);
+                
                 //Bullet.transform.rotation = fleche.transform.rotation;
                 timerLastShot = 0;
             }

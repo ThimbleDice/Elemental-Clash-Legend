@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class MapDestruction : MonoBehaviour {
+public class SpellColision : MonoBehaviour {
 
     [SerializeField] public float DestructionRadius = 1;
     [SerializeField] public float MapScale = 1.0f;
@@ -12,24 +12,23 @@ public class MapDestruction : MonoBehaviour {
     private GameObject tilemapGameObject;
     private Tilemap tilemap;
     private int hitCount = 0;
-   
 
-    void Start () {
+
+    void Start()
+    {
         tilemapGameObject = GameObject.FindGameObjectWithTag("MapSolid");
-       
         tilemap = tilemapGameObject.GetComponent<Tilemap>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-       
+
 
         if (tilemap != null && tilemapGameObject == collision.gameObject)
         {
             destroyTerrain(collision);
             destroyObject();
         }
-
 
     }
 
