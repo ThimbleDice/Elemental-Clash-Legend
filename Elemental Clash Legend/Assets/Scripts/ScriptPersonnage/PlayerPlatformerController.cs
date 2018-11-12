@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerPlatformerController : PhysicsObject
 {
 
+    public bool playerTurn = false;
     public float maxSpeed = 100;
     public float jumpTakeOffSpeed = 7;
     [SerializeField] Animator playerAnim;
@@ -23,46 +24,12 @@ public class PlayerPlatformerController : PhysicsObject
     {
         Vector2 move = Vector2.zero;
 
-        move.x = Input.GetAxis("Horizontal");
-
-        PlayerInput();
+        if (playerTurn){
+            move.x = Input.GetAxis("Horizontal");
+            PlayerInput();
+        }
         if (grounded)
-            animator.SetBool("Jump", false);
-
-        /*
-        if (Input.GetButtonDown("Jump") && grounded)
-        {
-            //playerAnim.Play("JumpingRight");
-            animator.SetBool("Jump", true);
-            velocity.y = jumpTakeOffSpeed;
-        }
-        else if (Input.GetButtonUp("Jump"))
-        {
-            if (velocity.y > 0)
-            {
-                velocity.y = velocity.y * 0.5f;
-            }
-        }
-        else if (grounded)
-        {
-            animator.SetBool("Jump", false);
-        }
-        else if (Input.GetButtonDown("Horizontal") && grounded)
-        {
-            velocity.x = move.x;
-        }
-        else if (Input.GetButtonDown("Fire1") && grounded)
-        {
-            //mettre l'event de mourrir
-            animator.SetBool("Death", true);
-            playerAnim.Play("DeathRight");
-        }
-        else if (Input.GetButtonDown("Fire2") && grounded)
-        {
-            playerAnim.Play("TakingDamageRight");
-            animator.SetBool("Death", true);
-        }
-        */
+            GetGrounded();
 
 
         animator.SetFloat("YVelocity", velocity.y);
@@ -93,19 +60,23 @@ public class PlayerPlatformerController : PhysicsObject
     {
         if (Input.GetButtonDown("Jump") && grounded)
         {
-
+            StartJump();
         }
         else if (Input.GetButtonUp("Jump"))
         {
-
+            DecreaseJumpVelocity();
         }
         else if (Input.GetButtonDown("Horizontal") && grounded)
         {
-
+            HorizontalMouvement(Input.GetAxis("Horizontal"));
         }
-        else if (Input.GetKeyDown(KeyCode.P) && grounded)
+        else if (Input.GetKeyDown(KeyCode.O) && grounded)
         {
-
+            Die();
+        }
+        else if (Input.GetKeyDown(KeyCode.L) && grounded)
+        {
+            TakeDamage();
         }
     }
 
@@ -126,21 +97,19 @@ public class PlayerPlatformerController : PhysicsObject
         animator.SetBool("Jump", false);
     }
 
-    public void HorizontalMouvement()
+    public void HorizontalMouvement(float speed)
     {
-        velocity.x = Input.GetAxis("Horizontal");
+        velocity.x = speed;
     }
 
     public void Die()
     {
         animator.SetBool("Death", true);
-        playerAnim.Play("DeathRight");
     }
 
     public void TakeDamage()
     {
-        playerAnim.Play("TakingDamageRight");
-        animator.SetBool("Death", true);
+        animator.SetTrigger("TakingDamage");
     }
 
 }

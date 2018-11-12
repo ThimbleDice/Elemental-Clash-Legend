@@ -24,15 +24,15 @@ public class multiplayerManager : MonoBehaviour {
 
     void NextPlayer()
     {
-        players[currentPlayer].GetComponent<PlayerPlatformerController>().enabled = false;
+        players[currentPlayer].GetComponent<PlayerPlatformerController>().playerTurn = false;
         currentPlayer = (currentPlayer + 1) % 2;
         print(currentPlayer);
-        players[currentPlayer].GetComponent<PlayerPlatformerController>().enabled = true;
+        players[currentPlayer].GetComponent<PlayerPlatformerController>().playerTurn = true;
     }
 
     void InitializePlayers()
     {
         for (int i = 1; i < players.Length; i++)
-            players[i].GetComponent<PlayerPlatformerController>().enabled = false;
+            players[i].GetComponent<PlayerPlatformerController>().playerTurn = false;
     }
 }
