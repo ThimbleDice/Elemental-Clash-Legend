@@ -10,19 +10,29 @@ public class SpellColision : MonoBehaviour {
     [SerializeField] public int MaxHit = 1;
 
     private GameObject tilemapGameObject;
+    private GameObject joueur;
     private Tilemap tilemap;
     private int hitCount = 0;
 
+    private void Awake()
+    {
+        //print("bonjour");
+        //joueur = GameObject.FindGameObjectWithTag("Player");
+        //Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), joueur.GetComponent<Collider2D>());
+        //print(Physics2D.GetIgnoreCollision(gameObject.GetComponent<Collider2D>(), joueur.GetComponent<Collider2D>()));
+    }
 
     void Start()
     {
         tilemapGameObject = GameObject.FindGameObjectWithTag("MapSolid");
+        
         tilemap = tilemapGameObject.GetComponent<Tilemap>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
+        joueur = GameObject.FindGameObjectWithTag("Player");
+        Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), joueur.GetComponent<Collider2D>());
 
         if (tilemap != null && tilemapGameObject == collision.gameObject)
         {

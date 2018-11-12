@@ -159,23 +159,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4729403591770328, guid: df1d9a16ee9925c4580d65b275454343, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.57
+      value: 0.045
       objectReference: {fileID: 0}
     - target: {fileID: 4729403591770328, guid: df1d9a16ee9925c4580d65b275454343, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.35
+      value: -0.053
       objectReference: {fileID: 0}
     - target: {fileID: 1941736196229604, guid: df1d9a16ee9925c4580d65b275454343, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1815131651473898, guid: df1d9a16ee9925c4580d65b275454343, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1503772557006360, guid: df1d9a16ee9925c4580d65b275454343, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df1d9a16ee9925c4580d65b275454343, type: 2}
@@ -236,33 +236,34 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1049573181129812, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1360286611957208, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1956979890498320, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1747022099960800, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1704654855301544, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1306575937213004, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1356292000714482, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 50090626730126356, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1021994436
@@ -55360,6 +55361,26 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1049573181129812, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49,
     type: 2}
   m_PrefabInternal: {fileID: 552939248}
+--- !u!50 &1454662042
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1454662037}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &1454662045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55386,7 +55407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2025119210
 Transform:
   m_ObjectHideFlags: 0
@@ -55408,8 +55429,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2025119209}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eee2535db15044047bbb50444a84d9a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 18d7b699a82ad114cb7f6ddaf98f58a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joueur: {fileID: 1454662037}
-  effet: {fileID: 0}
+  DestructionRadius: 1
+  MapScale: 1
+  MaxHit: 1

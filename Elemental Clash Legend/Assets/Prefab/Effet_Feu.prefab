@@ -25,9 +25,9 @@ GameObject:
   - component: {fileID: 114141363096061728}
   - component: {fileID: 114879422151287746}
   - component: {fileID: 114451581994274452}
-  - component: {fileID: 50703265604252080}
   - component: {fileID: 114427437519218554}
-  m_Layer: 0
+  - component: {fileID: 50141585392623938}
+  m_Layer: 9
   m_Name: Effet_Feu
   m_TagString: Effet
   m_Icon: {fileID: 0}
@@ -41,13 +41,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1489601143211762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.24741435, y: 0.5085686, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50703265604252080
+--- !u!50 &50141585392623938
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 1
@@ -61,7 +61,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -79,7 +79,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.95182455, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -90,7 +90,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.54, y: 0.65}
+  m_Size: {x: 0.6363508, y: 0.65}
   m_EdgeRadius: 0
 --- !u!114 &114141363096061728
 MonoBehaviour:
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c8f70cb78245f4595673ccd1d2d2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.30000034
+  speed: 0.7000003
   speedMutiplier: 10
 --- !u!114 &114427437519218554
 MonoBehaviour:
