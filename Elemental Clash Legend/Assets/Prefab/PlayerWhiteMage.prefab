@@ -30,7 +30,7 @@ GameObject:
   - component: {fileID: 114060143247365748}
   - component: {fileID: 114832382006189530}
   m_Layer: 0
-  m_Name: PlayerTEST
+  m_Name: PlayerWhiteMage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
