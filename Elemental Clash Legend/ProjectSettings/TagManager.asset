@@ -12,6 +12,7 @@ TagManager:
   - potionHealthHUD
   - potionPowerHUD
   - Effet
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -23,8 +24,8 @@ TagManager:
   - 
   - Player
   - Arme
-  - 
-  - 
+  - Enemy
+  - Potion
   - 
   - 
   - 

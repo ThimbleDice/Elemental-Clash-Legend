@@ -23,7 +23,6 @@ GameObject:
   - component: {fileID: 61113030725677960}
   - component: {fileID: 114904314723737978}
   - component: {fileID: 114141363096061728}
-  - component: {fileID: 114879422151287746}
   - component: {fileID: 114451581994274452}
   - component: {fileID: 114427437519218554}
   - component: {fileID: 50141585392623938}
@@ -58,10 +57,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -103,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c8f70cb78245f4595673ccd1d2d2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.7000003
+  speed: 1.9
   speedMutiplier: 10
 --- !u!114 &114427437519218554
 MonoBehaviour:
@@ -130,19 +129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bce2ca9ee02fd44b12313c9c86b632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114879422151287746
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1489601143211762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5d1fc528b8b4b9488d2f7a9360cefa7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hp: 1
-  isEnemy: 1
 --- !u!114 &114904314723737978
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -154,8 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfc51fe1f577cd14cba6eaebbafb47a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
-  isEnemyShot: 0
+  power: 50
+  health: 10
 --- !u!212 &212614332439620142
 SpriteRenderer:
   m_ObjectHideFlags: 1

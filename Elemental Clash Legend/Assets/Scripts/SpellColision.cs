@@ -10,17 +10,13 @@ public class SpellColision : MonoBehaviour {
     [SerializeField] public int MaxHit = 1;
 
     private GameObject tilemapGameObject;
-    private GameObject joueur;
+    private GameObject friends;
+    private GameObject Enemy;
+    private GameObject potion_sante;
+    private GameObject potion_mana;
     private Tilemap tilemap;
     private int hitCount = 0;
 
-    private void Awake()
-    {
-        //print("bonjour");
-        //joueur = GameObject.FindGameObjectWithTag("Player");
-        //Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), joueur.GetComponent<Collider2D>());
-        //print(Physics2D.GetIgnoreCollision(gameObject.GetComponent<Collider2D>(), joueur.GetComponent<Collider2D>()));
-    }
 
     void Start()
     {
@@ -29,17 +25,25 @@ public class SpellColision : MonoBehaviour {
         tilemap = tilemapGameObject.GetComponent<Tilemap>();
     }
 
+    public void SetFriends(GameObject friend)
+    {
+        friends = friend;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        joueur = GameObject.FindGameObjectWithTag("Player");
-        Physics2D.IgnoreCollision(gameObject.GetComponent<Collider2D>(), joueur.GetComponent<Collider2D>());
 
         if (tilemap != null && tilemapGameObject == collision.gameObject)
         {
             destroyTerrain(collision);
             destroyObject();
         }
-
+        if(collision.gameObject != friends)
+        {
+            Enemy = GameObject.FindGameObjectWithTag("Enemy");
+            Enemy.GetComponentInChildren<HealthBarDamage>().DicreaseHealth(GameObject.FindGameObjectWithTag("Effet").transform.GetComponent<ShotScript>().power);
+            destroyObject();
+        }
     }
 
     private void destroyTerrain(Collision2D collision)
