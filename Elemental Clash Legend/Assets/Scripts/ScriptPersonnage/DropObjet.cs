@@ -6,12 +6,12 @@ public class DropObjet : MonoBehaviour {
 
     HealthBarDamage healthBar;
     PowerBarDamage powerBar;
-    CountPotion countPotion;
+    //CountPotion countPotion;
     // Use this for initialization
     void Start () {
         healthBar = GetComponentInChildren<HealthBarDamage>();
         powerBar = GetComponentInChildren<PowerBarDamage>();
-        countPotion = GetComponent<CountPotion>();
+        //countPotion = GetComponent<CountPotion>();
 	}
 	
 	// Update is called once per frame
@@ -24,14 +24,14 @@ public class DropObjet : MonoBehaviour {
         if (collision.gameObject.tag == "ObjetSante")
         {
             healthBar.IncreaseHealth();
-            countPotion.CountPotionHealthWhenTouch();
+            //countPotion.CountPotionHealthWhenTouch();
             Destroy(collision.gameObject);
         }
 
         if (collision.gameObject.tag == "ObjetPotion")
         {
             powerBar.IncreasePower();
-            countPotion.CountPotionPowerWhenTouch();
+            //countPotion.CountPotionPowerWhenTouch();
             Destroy(collision.gameObject);
         }
     }

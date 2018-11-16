@@ -8,15 +8,16 @@ public class Timer : MonoBehaviour {
     public Text timerText;
     private float startTime = 5.0f;
     private float endTime = 0.0f;
+    private float currentTime;
 	// Use this for initialization
 	void Start () {
-
+        currentTime = startTime;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-        float currentTime = startTime - Time.time;
+        currentTime = currentTime - Time.deltaTime;
 
         TimerFinished(currentTime);
 
@@ -28,11 +29,9 @@ public class Timer : MonoBehaviour {
 
     private void TimerFinished(float currentTime)
     {
-        if (currentTime == endTime)
+        if (currentTime <= 0)
         {
-            Debug.Log("OK");
             timerText.color = Color.red;
-            return;
         }
     }
 }
