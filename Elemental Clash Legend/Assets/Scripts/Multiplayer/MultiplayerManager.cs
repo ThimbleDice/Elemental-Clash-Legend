@@ -12,21 +12,30 @@ public class MultiplayerManager : MonoBehaviour {
 
     private void Awake()
     {
-        NextPhaseTrigger.NextPhase.AddListener(NextPhase);//A réviser
+        MultiplayerEventManager.NextPhase += NextPhase;
+        MultiplayerEventManager.AllowCurrentPlayerToMove += AllowCurrentPlayerToMove;
+        MultiplayerEventManager.DisallowCurrentPlayerToMove += DisallowCurrentPlayerToMove;
+        MultiplayerEventManager.AllowCurrentPlayerToFire += AllowCurrentPlayerToFire;
+        MultiplayerEventManager.DisallowCurrentPlayerToFire += DisallowCurrentPlayerToFire;
+        MultiplayerEventManager.NextPlayer += NextPlayer;
         players = GameObject.FindGameObjectsWithTag("Player");
         playersChangeActiveState = new ChangePlayerActiveState[players.Length];
         for (int i = 0; i < players.Length; i++)
             playersChangeActiveState[i] = players[i].GetComponent<ChangePlayerActiveState>();
         currentPlayer = 0;
         phase = 0;
+    }
+
+    private void Start()
+    {
         InitializePlayers();
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
         if (Input.GetKeyDown(KeyCode.N))
         {
-            NextPhase();
+            MultiplayerEventManager.TriggerNextPhase();
         }
     }
 
@@ -35,24 +44,19 @@ public class MultiplayerManager : MonoBehaviour {
         switch (phase)
         {
             case 0:
-                AllowCurrentPlayerToMove();
-                phase ++;
+                MultiplayerEventManager.TriggerAllowCurrentPlayerToMove();
                 break;
             case 1:
-                DisallowCurrentPlayerToMove();
-                phase ++;
+                MultiplayerEventManager.TriggerDisallowCurrentPlayerToMove();
                 break;
             case 2:
-                AllowCurrentPlayerToFire();
-                phase ++;
+                MultiplayerEventManager.TriggerAllowCurrentPlayerToFire();
                 break;
             case 3:
-                DisallowCurrentPlayerToFire();
-                phase ++;
+                MultiplayerEventManager.TriggerDisallowCurrentPlayerToFire();
                 break;
             case 4:
-                NextPlayer();
-                phase = 0;
+                MultiplayerEventManager.TriggerNextPlayer();
                 break;
             default:
                 break;
@@ -64,6 +68,7 @@ public class MultiplayerManager : MonoBehaviour {
         try
         {
             playersChangeActiveState[currentPlayer].StartMovePhase();
+            phase = 1;
         }
         catch (MultiplayerException e)
         {
@@ -76,6 +81,7 @@ public class MultiplayerManager : MonoBehaviour {
         try
         {
             playersChangeActiveState[currentPlayer].EndMovePhase();
+            phase = 2;
         }
         catch (MultiplayerException e)
         {
@@ -88,6 +94,7 @@ public class MultiplayerManager : MonoBehaviour {
         try
         {
             playersChangeActiveState[currentPlayer].StartFirePhase();
+            phase = 3;
         }
         catch (MultiplayerException e)
         {
@@ -100,6 +107,7 @@ public class MultiplayerManager : MonoBehaviour {
         try
         {
             playersChangeActiveState[currentPlayer].EndFirePhase();
+            phase = 4;
         }
         catch (MultiplayerException e)
         {
@@ -109,15 +117,21 @@ public class MultiplayerManager : MonoBehaviour {
 
     void NextPlayer()
     {
-        currentPlayer = (currentPlayer + 1) % 2;
+        players[currentPlayer].tag = "Enemy";
+        currentPlayer = (currentPlayer + 1) % players.Length;
+        players[currentPlayer].tag = "Player";
+        phase = 0;
     }
 
     void InitializePlayers()
     {
         for (int i = 0; i < players.Length; i++)
         {
-            players[i].GetComponent<PlayerPlatformerController>().playerTurn = false;
-            players[i].transform.Find("FireZone").gameObject.SetActive(false);
+            currentPlayer = i;
+            DisallowCurrentPlayerToMove();
+            DisallowCurrentPlayerToFire();
+            players[currentPlayer].tag = "Enemy";
         }
+        NextPlayer();
     }
 }

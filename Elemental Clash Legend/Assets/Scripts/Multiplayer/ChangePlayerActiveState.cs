@@ -40,7 +40,8 @@ public class ChangePlayerActiveState : MonoBehaviour {
     {
         if (fireZone != null)
         {
-
+            fireZone.GetComponent<FireGun>().Activate();
+            fireZone.SetActive(true);
         }
         else
             throw new MultiplayerException("FireZone cannot be found");
@@ -50,7 +51,8 @@ public class ChangePlayerActiveState : MonoBehaviour {
     {
         if (fireZone != null)
         {
-
+            fireZone.GetComponent<FireGun>().Deactivate();
+            fireZone.SetActive(false);
         }
         else
             throw new MultiplayerException("FireZone cannot be found");

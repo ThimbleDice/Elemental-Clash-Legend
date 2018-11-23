@@ -17,11 +17,28 @@ public class FireGun : MonoBehaviour {
         {
             if (Input.GetAxis("Fire1") > 0)
             {
-                Bullet.GetComponent<MoveScript>().speed = fleche.transform.localScale.x * Bullet.GetComponent<MoveScript>().speedMutiplier;
-                Instantiate(Bullet, bulletEmitter.transform.position, fleche.transform.rotation);
-                fired = true;
-                NextPhaseTrigger.NextPhase.Invoke();
+                Fire();
             }
         }
+    }
+
+    private void Fire()
+    {
+        Bullet.GetComponent<MoveScript>().speed = fleche.transform.localScale.x * Bullet.GetComponent<MoveScript>().speedMutiplier;
+        Instantiate(Bullet, bulletEmitter.transform.position, fleche.transform.rotation);
+        fired = true;
+        MultiplayerEventManager.TriggerNextPhase();
+    }
+
+    public void Activate()
+    {
+        active = true;
+        fired = false;
+    }
+
+    public void Deactivate()
+    {
+        active = false;
+        fired = true;
     }
 }

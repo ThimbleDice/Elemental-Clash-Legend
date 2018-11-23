@@ -11,6 +11,7 @@ TagManager:
   - ObjetSante
   - potionHealthHUD
   - potionPowerHUD
+  - Enemy
   layers:
   - Default
   - TransparentFX
