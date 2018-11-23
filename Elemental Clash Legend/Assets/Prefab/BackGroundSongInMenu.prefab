@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4624318495381122}
   - component: {fileID: 82087018232694330}
+  - component: {fileID: 114113609755433802}
   m_Layer: 0
   m_Name: BackGroundSongInMenu
   m_TagString: Untagged
@@ -49,9 +50,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3b9cc45b4c9dbdd4382104e9e956bbcd, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2ebe2efb14e8cf849a04c4613044ae37, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.168
+  m_Volume: 0.18
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -135,3 +136,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &114113609755433802
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1538022929528900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91d072a6b26f5d74ab68381fe42c8593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClipsListJump: []
+  audioClipsListTakingDamage: []
+  audioClipsListAttack: []
+  audioClipsListDeath: []
+  audioClipsListFallDeath: []
+  audioClipsListExplosion: []
+  audioClipsListSpellCast: []
+  Victory: {fileID: 8300000, guid: d9b5ca5ca1c78c44eabb02e8556f8b33, type: 3}
+  MenuSelectSound: {fileID: 8300000, guid: 04aaa9b70ee7dce42a52ec18a5229d57, type: 3}
+  TirerSelectSound: {fileID: 8300000, guid: 134c83d6b10fe6945bba6b0cc14be6c1, type: 3}
+  ErrorSound: {fileID: 8300000, guid: 51f167233a429e041a1bb77a848211e6, type: 3}
