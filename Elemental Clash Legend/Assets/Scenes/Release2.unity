@@ -236,7 +236,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1049573181129812, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1360286611957208, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
@@ -624,7 +624,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1049573181129812, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1360286611957208, guid: 08a49ed4c2a4e3d4da8a289d7fe8ee49, type: 2}
       propertyPath: m_Layer
