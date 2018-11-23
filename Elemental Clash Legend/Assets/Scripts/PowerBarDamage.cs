@@ -3,7 +3,7 @@
 public class PowerBarDamage : MonoBehaviour
 {
     private SimpleHealthBar powerBar;
-    float currentPower = 100;
+    public float currentPower = 100;
     float maxPower = 100;
     float mediumPower = 50;
     float criticalPower = 25;
@@ -59,5 +59,10 @@ public class PowerBarDamage : MonoBehaviour
             {
                 powerBar.UpdateColor(Color.white);
             }
+    }
+
+    public float currentBarPower()
+    {
+        return currentPower;
     }
 }
