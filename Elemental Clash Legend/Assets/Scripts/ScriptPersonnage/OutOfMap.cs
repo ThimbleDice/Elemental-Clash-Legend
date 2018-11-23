@@ -15,7 +15,7 @@ public class OutOfMap : MonoBehaviour {
     {
         if (tilemapGameObject == collision.gameObject)
         {
-            Destroy(gameObject);
+            FallOutOfMap();
         }
     }
 
@@ -23,7 +23,13 @@ public class OutOfMap : MonoBehaviour {
     {
         if (tilemapGameObject == collision.gameObject)
         {
-            Destroy(gameObject);
+            FallOutOfMap();
         }
+    }
+
+    private void FallOutOfMap()
+    {
+        Destroy(gameObject);
+        AudioForCharacter.FallDeathSound();
     }
 }
