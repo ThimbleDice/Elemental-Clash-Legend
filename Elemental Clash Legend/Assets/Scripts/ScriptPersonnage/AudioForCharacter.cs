@@ -52,6 +52,11 @@ public class AudioForCharacter : MonoBehaviour {
         audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC4"));
         audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC5"));
         audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC6"));
+
+        Victory = (AudioClip)Resources.Load<AudioClip>("Victory/FFXIV OST Duty Complete Theme ( A Victory Fanfare Reborn )");
+        MenuSelectSound = (AudioClip)Resources.Load<AudioClip>("Menu/sfx_accept1");
+        TirerSelectSound = (AudioClip)Resources.Load<AudioClip>("Menu/sfx_click1");
+        ErrorSound = (AudioClip)Resources.Load<AudioClip>("Menu/sfx_error1");
     }
 
     public static void JumpSound()
@@ -66,8 +71,7 @@ public class AudioForCharacter : MonoBehaviour {
 
     public static void FallDeathSound()
     {
-        GameObject.FindGameObjectWithTag("GeneralAudio").GetComponent<AudioSource>();
-        audiosource.PlayOneShot(audioClipsListFallDeath[Random.Range(0, audioClipsListFallDeath.Count)]);
+        GameObject.FindGameObjectWithTag("GeneralAudio").GetComponent<AudioSource>().PlayOneShot(audioClipsListFallDeath[Random.Range(0, audioClipsListFallDeath.Count)]);
     }
 
     public static void DeathSound()

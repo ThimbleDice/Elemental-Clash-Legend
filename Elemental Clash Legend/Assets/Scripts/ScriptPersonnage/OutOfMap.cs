@@ -30,6 +30,7 @@ public class OutOfMap : MonoBehaviour {
     private void FallOutOfMap()
     {
         Destroy(gameObject);
-        AudioForCharacter.FallDeathSound();
+        if (gameObject.tag == "Player" || gameObject.tag == "Enemy")
+            AudioForCharacter.FallDeathSound();
     }
 }

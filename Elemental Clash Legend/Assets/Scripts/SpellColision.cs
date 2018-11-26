@@ -10,7 +10,7 @@ public class SpellColision : MonoBehaviour {
     [SerializeField] public int MaxHit = 1;
 
     private GameObject tilemapGameObject;
-    private GameObject friends;
+    private GameObject friend;
     private GameObject Enemy;
     private GameObject potion_sante;
     private GameObject potion_mana;
@@ -25,9 +25,9 @@ public class SpellColision : MonoBehaviour {
         tilemap = tilemapGameObject.GetComponent<Tilemap>();
     }
 
-    public void SetFriends(GameObject friend)
+    public void SetFriends(GameObject newFriend)
     {
-        friends = friend;
+        friend = newFriend;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -38,10 +38,14 @@ public class SpellColision : MonoBehaviour {
             destroyTerrain(collision);
             destroyObject();
         }
-        if(collision.gameObject != friends)
+        else if(collision.gameObject.tag == "Enemy")
         {
-            Enemy = GameObject.FindGameObjectWithTag("Enemy");
-            Enemy.GetComponentInChildren<HealthBarDamage>().DicreaseHealth(GameObject.FindGameObjectWithTag("Effet").transform.GetComponent<ShotScript>().power);
+            destroyTerrain(collision);
+            collision.gameObject.GetComponentInChildren<HealthBarDamage>().DicreaseHealth(GameObject.FindGameObjectWithTag("Effet").transform.GetComponent<ShotScript>().power);
+            destroyObject();
+        }
+        else if(collision.gameObject != friend)
+        {
             destroyObject();
         }
     }
@@ -65,6 +69,7 @@ public class SpellColision : MonoBehaviour {
 
     private void destroyObject()
     {
+        MultiplayerEventManager.TriggerNextPhase();
         hitCount++;
         if (hitCount >= MaxHit)
             Destroy(gameObject);

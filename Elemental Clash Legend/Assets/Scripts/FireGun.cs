@@ -16,20 +16,24 @@ public class FireGun : MonoBehaviour {
     {
         if (active && !fired)
         {
-            float currentPower = player.GetComponentInChildren<PowerBarDamage>().currentBarPower();
             if (Input.GetAxis("Fire1") > 0)
-                if (currentPower >= Bullet.transform.GetComponent<ShotScript>().power)
+            {
+                if (player.GetComponentInChildren<PowerBarDamage>().currentBarPower() >= Bullet.transform.GetComponent<ShotScript>().power)
+                {
                     Fire();
-        }  
+                }
+            }
+        }
     }
 
     private void Fire()
     {
         Bullet.GetComponent<MoveScript>().speed = fleche.transform.localScale.x * Bullet.GetComponent<MoveScript>().speedMutiplier;
         GameObject instanceOfBullet = Instantiate(Bullet, bulletEmitter.transform.position, fleche.transform.rotation);
-        instanceOfBullet.GetComponent<SpellColision>().SetFriends(gameObject.transform.parent.gameObject);
-        gameObject.transform.parent.gameObject.GetComponentInChildren<PowerBarDamage>().DicreasePower(Bullet.transform.GetComponent<ShotScript>().power);
+        instanceOfBullet.GetComponent<SpellColision>().SetFriends(player);
+        player.gameObject.GetComponentInChildren<PowerBarDamage>().DecreasePower(Bullet.transform.GetComponent<ShotScript>().power);
         fired = true;
+        AudioForCharacter.CastASpell();
         MultiplayerEventManager.TriggerNextPhase();
     }
 

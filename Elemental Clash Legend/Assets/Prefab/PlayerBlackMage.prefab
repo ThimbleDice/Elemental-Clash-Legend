@@ -717,9 +717,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1310e65397a274d44a776b51d6937f61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barImage: {fileID: 0}
+  barImage: {fileID: 114569978874174962}
   colorMode: 0
-  barColor: {r: 1, g: 1, b: 1, a: 1}
+  barColor: {r: 0.025951385, g: 0, b: 1, a: 1}
   barGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -774,9 +774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1310e65397a274d44a776b51d6937f61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  barImage: {fileID: 0}
+  barImage: {fileID: 114190445530957592}
   colorMode: 0
-  barColor: {r: 1, g: 1, b: 1, a: 1}
+  barColor: {r: 0, g: 1, b: 0.008064508, a: 1}
   barGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}

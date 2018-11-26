@@ -7,11 +7,13 @@ public class MainMenuScript : MonoBehaviour {
 
     public void PlayGame()
     {
+        AudioForCharacter.MenuSelectionSound();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()
     {
+        AudioForCharacter.MenuSelectionSound();
         Debug.Log("Jeu quitter");
         Application.Quit();
     }

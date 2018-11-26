@@ -1,8 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MultiplayerManager : MonoBehaviour {
+
+    [SerializeField] public Text currentPlayerHud;
+    [SerializeField] public Text currentPhaseHud;
+    [SerializeField] public changeTimerTime timer;
 
     private GameObject[] players;
     private ChangePlayerActiveState[] playersChangeActiveState;
@@ -72,8 +77,10 @@ public class MultiplayerManager : MonoBehaviour {
     {
         try
         {
+            currentPhaseHud.text = "Movement";
             playersChangeActiveState[currentPlayer].StartMovePhase();
             phase = 1;
+            timer.ChangeTime(2.0f);
         }
         catch (MultiplayerException e)
         {
@@ -85,8 +92,10 @@ public class MultiplayerManager : MonoBehaviour {
     {
         try
         {
+            currentPhaseHud.text = "End movement";
             playersChangeActiveState[currentPlayer].EndMovePhase();
             phase = 2;
+            timer.ChangeTime(1.0f);
         }
         catch (MultiplayerException e)
         {
@@ -98,8 +107,10 @@ public class MultiplayerManager : MonoBehaviour {
     {
         try
         {
+            currentPhaseHud.text = "Cast";
             playersChangeActiveState[currentPlayer].StartFirePhase();
             phase = 3;
+            timer.ChangeTime(5.0f);
         }
         catch (MultiplayerException e)
         {
@@ -111,8 +122,11 @@ public class MultiplayerManager : MonoBehaviour {
     {
         try
         {
+            currentPhaseHud.text = "End cast";
             playersChangeActiveState[currentPlayer].EndFirePhase();
             phase = 4;
+            timer.ChangeTime(0.0f);
+            timer.Disable();
         }
         catch (MultiplayerException e)
         {
@@ -122,10 +136,14 @@ public class MultiplayerManager : MonoBehaviour {
 
     void NextPlayer()
     {
+        currentPhaseHud.text = "Next player";
         players[currentPlayer].tag = "Enemy";
         currentPlayer = (currentPlayer + 1) % players.Length;
         players[currentPlayer].tag = "Player";
         phase = 0;
+        currentPlayerHud.text = "Player " + (currentPlayer + 1);
+        timer.Enable();
+        timer.ChangeTime(0.6f);
     }
 
     void InitializePlayers()

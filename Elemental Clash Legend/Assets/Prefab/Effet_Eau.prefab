@@ -113,8 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d7b699a82ad114cb7f6ddaf98f58a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestructionRadius: 1
-  MapScale: 1
+  DestructionRadius: 2
+  MapScale: 0.5
   MaxHit: 1
 --- !u!114 &114644324311298776
 MonoBehaviour:
@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c8f70cb78245f4595673ccd1d2d2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.9
+  speed: 1.9999999
   speedMutiplier: 10
 --- !u!114 &114934501125114910
 MonoBehaviour:

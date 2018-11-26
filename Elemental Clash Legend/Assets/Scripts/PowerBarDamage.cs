@@ -45,7 +45,7 @@ public class PowerBarDamage : MonoBehaviour
              }
     }
 
-    public void DicreasePower(int power)
+    public void DecreasePower(int power)
     {
             currentPower -= power;
             powerBar.UpdateBar(currentPower, maxPower);
