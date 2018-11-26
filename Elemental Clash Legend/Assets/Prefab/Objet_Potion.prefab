@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4370723371104914}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Objet_Potion
   m_TagString: ObjetPotion
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 212210130862815830}
   - component: {fileID: 61260584492429034}
   - component: {fileID: 50553445138319912}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Potion
   m_TagString: ObjetPotion
   m_Icon: {fileID: 0}

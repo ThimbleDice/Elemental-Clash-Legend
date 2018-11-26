@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4694765303885228}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Objet_Sante
   m_TagString: ObjetSante
   m_Icon: {fileID: 0}
@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 212099918079983320}
   - component: {fileID: 61753097129463118}
   - component: {fileID: 50945651446369844}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Sante
   m_TagString: ObjetSante
   m_Icon: {fileID: 0}

@@ -10,16 +10,7 @@ public class ShotScript : MonoBehaviour
     /// <summary>
     /// Points de dégâts infligés
     /// </summary>
-    public int damage = 1;
+    public int power = 10;
+    public int health = 10;
 
-    /// <summary>
-    /// Projectile ami ou ennemi ?
-    /// </summary>
-    public bool isEnemyShot = false;
-
-    void Start()
-    {
-        // 2 - Destruction programmée
-        Destroy(gameObject, 20); // 20sec
-    }
 }

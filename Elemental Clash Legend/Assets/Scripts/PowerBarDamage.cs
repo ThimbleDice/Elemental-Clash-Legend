@@ -3,21 +3,20 @@
 public class PowerBarDamage : MonoBehaviour
 {
     private SimpleHealthBar powerBar;
-    int power = 10;
-    float currentPower = 100;
+    public float currentPower = 100;
     float maxPower = 100;
     float mediumPower = 50;
     float criticalPower = 25;
 
     // Use this for initialization
     void Start () {
-    
+        
     }
 	
 	// Update is called once per frame
 	void Update ()
     {
-        DicreasePower();
+                
     }
 
     private void Awake()
@@ -27,7 +26,7 @@ public class PowerBarDamage : MonoBehaviour
 
     public void IncreasePower()
     {
-            currentPower += power;
+            currentPower += 5;
             powerBar.UpdateBar(currentPower, maxPower);
 
             if (currentPower <= mediumPower)
@@ -46,10 +45,8 @@ public class PowerBarDamage : MonoBehaviour
              }
     }
 
-    private void DicreasePower()
+    public void DicreasePower(int power)
     {
-        if (Input.GetKeyDown("down"))
-        {
             currentPower -= power;
             powerBar.UpdateBar(currentPower, maxPower);
 
@@ -62,6 +59,10 @@ public class PowerBarDamage : MonoBehaviour
             {
                 powerBar.UpdateColor(Color.white);
             }
-        }
+    }
+
+    public float currentBarPower()
+    {
+        return currentPower;
     }
 }

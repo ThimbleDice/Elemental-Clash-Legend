@@ -17,7 +17,7 @@ public class HealthBarDamage : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-        DicreaseHealth();
+        
     }
 
     private void Awake()
@@ -27,7 +27,7 @@ public class HealthBarDamage : MonoBehaviour
 
     public void IncreaseHealth()
     {
-            currentHealth += health;
+            currentHealth += 5;
             healthBar.UpdateBar(currentHealth, maxHealth);
 
             if (currentHealth <= mediumHealth)
@@ -46,10 +46,10 @@ public class HealthBarDamage : MonoBehaviour
             }
     }
 
-    private void DicreaseHealth()
+    public void DicreaseHealth(int healt)
     {   
-        if (Input.GetKeyDown("up"))
-        {
+        //if (Input.GetKeyDown("up"))
+        //{
             currentHealth -= health;
             healthBar.UpdateBar(currentHealth, maxHealth);
 
@@ -62,6 +62,6 @@ public class HealthBarDamage : MonoBehaviour
             {
                healthBar.UpdateColor(Color.red);
             }
-        }
+        //}
     }
 }

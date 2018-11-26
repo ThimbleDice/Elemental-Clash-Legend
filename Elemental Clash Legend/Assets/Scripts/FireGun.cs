@@ -6,6 +6,7 @@ public class FireGun : MonoBehaviour {
     [SerializeField] GameObject Bullet;
     [SerializeField] GameObject bulletEmitter;
     [SerializeField] GameObject fleche;
+    [SerializeField] GameObject player;
 
     bool active = false;
     bool fired = false;
@@ -15,17 +16,19 @@ public class FireGun : MonoBehaviour {
     {
         if (active && !fired)
         {
+            float currentPower = player.GetComponentInChildren<PowerBarDamage>().currentBarPower();
             if (Input.GetAxis("Fire1") > 0)
-            {
-                Fire();
-            }
-        }
+                if (currentPower >= Bullet.transform.GetComponent<ShotScript>().power)
+                    Fire();
+        }  
     }
 
     private void Fire()
     {
         Bullet.GetComponent<MoveScript>().speed = fleche.transform.localScale.x * Bullet.GetComponent<MoveScript>().speedMutiplier;
-        Instantiate(Bullet, bulletEmitter.transform.position, fleche.transform.rotation);
+        GameObject instanceOfBullet = Instantiate(Bullet, bulletEmitter.transform.position, fleche.transform.rotation);
+        instanceOfBullet.GetComponent<SpellColision>().SetFriends(gameObject.transform.parent.gameObject);
+        gameObject.transform.parent.gameObject.GetComponentInChildren<PowerBarDamage>().DicreasePower(Bullet.transform.GetComponent<ShotScript>().power);
         fired = true;
         MultiplayerEventManager.TriggerNextPhase();
     }

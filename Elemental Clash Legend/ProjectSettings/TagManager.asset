@@ -11,8 +11,8 @@ TagManager:
   - ObjetSante
   - potionHealthHUD
   - potionPowerHUD
+  - Effet
   - Enemy
-  - GeneralAudio
   layers:
   - Default
   - TransparentFX
@@ -25,6 +25,10 @@ TagManager:
   - Player
   - Arme
   - Enemy
+  - Potion
+  - 
+  - 
+  - 
   - 
   - 
   - 
