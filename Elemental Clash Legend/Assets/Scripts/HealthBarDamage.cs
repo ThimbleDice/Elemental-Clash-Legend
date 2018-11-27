@@ -25,25 +25,27 @@ public class HealthBarDamage : MonoBehaviour
         healthBar = GetComponentInChildren<SimpleHealthBar>();
     }
 
-    public void IncreaseHealth()
+    public void IncreaseHealth(int amount)
     {
-            currentHealth += 5;
-            healthBar.UpdateBar(currentHealth, maxHealth);
+        currentHealth += amount;
+        if (currentHealth > maxHealth)
+            currentHealth = maxHealth;
+        healthBar.UpdateBar(currentHealth, maxHealth);
 
-            if (currentHealth <= mediumHealth)
-            {
-                healthBar.UpdateColor(Color.yellow);
-            }
+        if (currentHealth <= mediumHealth)
+        {
+            healthBar.UpdateColor(Color.yellow);
+        }
 
-            if (currentHealth <= criticalHealth)
-            {
-                healthBar.UpdateColor(Color.red);
-            }
+        if (currentHealth <= criticalHealth)
+        {
+            healthBar.UpdateColor(Color.red);
+        }
 
-            if (currentHealth >= mediumHealth)
-            {
-                healthBar.UpdateColor(Color.green);
-            }
+        if (currentHealth >= mediumHealth)
+        {
+            healthBar.UpdateColor(Color.green);
+        }
     }
 
     public void DicreaseHealth(int healt)

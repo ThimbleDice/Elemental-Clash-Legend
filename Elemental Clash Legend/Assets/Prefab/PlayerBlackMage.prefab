@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 4755648871362374}
   - component: {fileID: 212286662554367836}
   - component: {fileID: 114495417933146090}
+  - component: {fileID: 114729978763136298}
   m_Layer: 0
   m_Name: FireZone
   m_TagString: Untagged
@@ -619,7 +620,7 @@ MonoBehaviour:
   playerTurn: 0
   maxSpeed: 4
   jumpTakeOffSpeed: 10
-  playerAnim: {fileID: 0}
+  playerAnim: {fileID: 95898510040665160}
 --- !u!114 &114607911122602916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -685,6 +686,20 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114729978763136298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1333206648648506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eec4c2dbf5f3e24b8d38d54dd0f362a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spell:
+  - {fileID: 1423013405790386, guid: 5fdb0aa1be3c23c43b8c82fac64a3457, type: 2}
+  - {fileID: 1489601143211762, guid: 70b3ead8393a1334bbb190c37e85ae54, type: 2}
 --- !u!114 &114754285014010102
 MonoBehaviour:
   m_ObjectHideFlags: 1

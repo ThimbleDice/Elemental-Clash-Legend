@@ -29,9 +29,10 @@ GameObject:
   - component: {fileID: 82348183842511244}
   - component: {fileID: 114060143247365748}
   - component: {fileID: 114832382006189530}
+  - component: {fileID: 114816075209986002}
   m_Layer: 0
   m_Name: PlayerWhiteMage
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,6 +64,7 @@ GameObject:
   - component: {fileID: 4755648871362374}
   - component: {fileID: 212286662554367836}
   - component: {fileID: 114495417933146090}
+  - component: {fileID: 114137881382878192}
   m_Layer: 0
   m_Name: FireZone
   m_TagString: Untagged
@@ -431,6 +433,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70bce2ca9ee02fd44b12313c9c86b632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114137881382878192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1333206648648506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eec4c2dbf5f3e24b8d38d54dd0f362a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spell:
+  - {fileID: 1423013405790386, guid: 5fdb0aa1be3c23c43b8c82fac64a3457, type: 2}
+  - {fileID: 1489601143211762, guid: 70b3ead8393a1334bbb190c37e85ae54, type: 2}
 --- !u!114 &114190445530957592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -443,7 +459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.008064508, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.007843138, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -480,6 +496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6123167bbaffd4f429f166f4d4fbea61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentPower: 100
 --- !u!114 &114443917960228344
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -525,8 +542,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bullet: {fileID: 1489601143211762, guid: 70b3ead8393a1334bbb190c37e85ae54, type: 2}
-  fireRate: 1
   bulletEmitter: {fileID: 1577902560293542}
+  fleche: {fileID: 1765479306645474}
+  player: {fileID: 1049573181129812}
 --- !u!114 &114551343690185594
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -600,6 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minGroundNormalY: 0.65
   gravityModifier: 1
+  playerTurn: 0
   maxSpeed: 4
   jumpTakeOffSpeed: 10
   playerAnim: {fileID: 95898510040665160}
@@ -735,6 +754,19 @@ MonoBehaviour:
   displayText: 0
   barText: {fileID: 114551343690185594}
   additionalText: 'Point de magie '
+--- !u!114 &114816075209986002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1049573181129812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc82d3be327cc74a97d0866eae1a0b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireZone: {fileID: 0}
+  playerController: {fileID: 0}
 --- !u!114 &114832382006189530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -746,17 +778,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d072a6b26f5d74ab68381fe42c8593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClipsListJump: []
-  audioClipsListTakingDamage: []
-  audioClipsListAttack: []
-  audioClipsListDeath: []
-  audioClipsListFallDeath: []
-  audioClipsListExplosion: []
-  audioClipsListSpellCast: []
-  Victory: {fileID: 8300000, guid: d9b5ca5ca1c78c44eabb02e8556f8b33, type: 3}
-  MenuSelectSound: {fileID: 8300000, guid: 04aaa9b70ee7dce42a52ec18a5229d57, type: 3}
-  TirerSelectSound: {fileID: 8300000, guid: 134c83d6b10fe6945bba6b0cc14be6c1, type: 3}
-  ErrorSound: {fileID: 8300000, guid: 51f167233a429e041a1bb77a848211e6, type: 3}
 --- !u!114 &114845161788181346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -770,7 +791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barImage: {fileID: 114190445530957592}
   colorMode: 0
-  barColor: {r: 0.2991723, g: 0.7830189, b: 0.30106974, a: 1}
+  barColor: {r: 0, g: 1, b: 0.007843138, a: 1}
   barGradient:
     serializedVersion: 2
     key0: {r: 1, g: 1, b: 1, a: 1}
@@ -820,7 +841,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1049573181129812}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65de0da3079ce9248b07cbbf0d008ba2, type: 3}
   m_Name: 

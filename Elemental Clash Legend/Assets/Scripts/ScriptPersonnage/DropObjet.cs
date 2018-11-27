@@ -23,14 +23,14 @@ public class DropObjet : MonoBehaviour {
     {
         if (collision.gameObject.tag == "ObjetSante")
         {
-            healthBar.IncreaseHealth();
+            healthBar.IncreaseHealth(20);
             //countPotion.CountPotionHealthWhenTouch();
             Destroy(collision.gameObject);
         }
 
         if (collision.gameObject.tag == "ObjetPotion")
         {
-            powerBar.IncreasePower();
+            powerBar.IncreasePower(20);
             //countPotion.CountPotionPowerWhenTouch();
             Destroy(collision.gameObject);
         }

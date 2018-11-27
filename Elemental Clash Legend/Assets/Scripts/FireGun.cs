@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FireGun : MonoBehaviour {
-    [SerializeField] GameObject Bullet;
+    [SerializeField] public GameObject Bullet;
     [SerializeField] GameObject bulletEmitter;
     [SerializeField] GameObject fleche;
     [SerializeField] GameObject player;

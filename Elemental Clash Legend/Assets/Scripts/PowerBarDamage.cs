@@ -24,25 +24,27 @@ public class PowerBarDamage : MonoBehaviour
         powerBar = GetComponentInChildren<SimpleHealthBar>();
     }
 
-    public void IncreasePower()
+    public void IncreasePower(int amount)
     {
-            currentPower += 5;
-            powerBar.UpdateBar(currentPower, maxPower);
+        currentPower += amount;
+        if (currentPower > maxPower)
+            currentPower = maxPower;
+        powerBar.UpdateBar(currentPower, maxPower);
 
-            if (currentPower <= mediumPower)
-            {
-                powerBar.UpdateColor(Color.cyan);
-            }
+        if (currentPower <= mediumPower)
+        {
+            powerBar.UpdateColor(Color.cyan);
+        }
 
-            if (currentPower <= criticalPower)
-            {
-                powerBar.UpdateColor(Color.white);
-            }
+        if (currentPower <= criticalPower)
+        {
+            powerBar.UpdateColor(Color.white);
+        }
 
-             if (currentPower >= mediumPower)
-             {
-                 powerBar.UpdateColor(Color.blue);
-             }
+        if (currentPower >= mediumPower)
+        {
+            powerBar.UpdateColor(Color.blue);
+        }
     }
 
     public void DecreasePower(int power)

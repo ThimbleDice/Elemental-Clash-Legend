@@ -13,6 +13,8 @@ TagManager:
   - potionPowerHUD
   - Effet
   - Enemy
+  - GeneralAudio
+  - MultiplayerManager
   layers:
   - Default
   - TransparentFX
@@ -26,10 +28,6 @@ TagManager:
   - Arme
   - Enemy
   - Potion
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 

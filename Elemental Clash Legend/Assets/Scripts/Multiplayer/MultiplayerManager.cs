@@ -9,24 +9,29 @@ public class MultiplayerManager : MonoBehaviour {
     [SerializeField] public Text currentPhaseHud;
     [SerializeField] public changeTimerTime timer;
 
-    private GameObject[] players;
-    private ChangePlayerActiveState[] playersChangeActiveState;
+    private List<GameObject> players = new List<GameObject>();
+    private List<ChangePlayerActiveState> playersChangeActiveState = new List<ChangePlayerActiveState>();
     private int phase;
-
+    private int deadPlayeCount = 0;
     private int currentPlayer;
 
     private void Awake()
     {
+        print(GameObject.FindGameObjectsWithTag("Player").Length);
         MultiplayerEventManager.NextPhase += NextPhase;
         MultiplayerEventManager.AllowCurrentPlayerToMove += AllowCurrentPlayerToMove;
         MultiplayerEventManager.DisallowCurrentPlayerToMove += DisallowCurrentPlayerToMove;
         MultiplayerEventManager.AllowCurrentPlayerToFire += AllowCurrentPlayerToFire;
         MultiplayerEventManager.DisallowCurrentPlayerToFire += DisallowCurrentPlayerToFire;
         MultiplayerEventManager.NextPlayer += NextPlayer;
-        players = GameObject.FindGameObjectsWithTag("Player");
-        playersChangeActiveState = new ChangePlayerActiveState[players.Length];
-        for (int i = 0; i < players.Length; i++)
-            playersChangeActiveState[i] = players[i].GetComponent<ChangePlayerActiveState>();
+        GameObject[] allPlayer = GameObject.FindGameObjectsWithTag("Player");
+        for (int i = 0; i < GameObject.FindGameObjectsWithTag("Player").Length; i++)
+        {
+            GameObject player = allPlayer[i];
+            players.Add(player);
+        }
+        foreach (GameObject player in players)
+            playersChangeActiveState.Add(player.GetComponent<ChangePlayerActiveState>());
         currentPlayer = 0;
         phase = 0;
     }
@@ -68,9 +73,21 @@ public class MultiplayerManager : MonoBehaviour {
         }
     }
 
-    void PlayerDeath()
+    public void PlayerDeath(int playerId)
     {
+        players.RemoveAt(playerId);
+        UpdatePlayersId();
+    }
 
+    void UpdatePlayersId()
+    {
+        int newId = 0;
+        foreach (GameObject player in players)
+        {
+            MultiplayerPlayerId playerId = player.GetComponent<MultiplayerPlayerId>();
+            playerId.SetId(newId);
+            newId++;
+        }
     }
 
     void AllowCurrentPlayerToMove()
@@ -127,6 +144,8 @@ public class MultiplayerManager : MonoBehaviour {
             phase = 4;
             timer.ChangeTime(0.0f);
             timer.Disable();
+            if (GameObject.FindGameObjectWithTag("Effet") == null)
+                NextPhase();
         }
         catch (MultiplayerException e)
         {
@@ -138,23 +157,28 @@ public class MultiplayerManager : MonoBehaviour {
     {
         currentPhaseHud.text = "Next player";
         players[currentPlayer].tag = "Enemy";
-        currentPlayer = (currentPlayer + 1) % players.Length;
+        currentPlayer = (currentPlayer + 1) % players.Count;
         players[currentPlayer].tag = "Player";
         phase = 0;
         currentPlayerHud.text = "Player " + (currentPlayer + 1);
         timer.Enable();
-        timer.ChangeTime(0.6f);
+        timer.ChangeTime(4.0f);
+        PowerBarDamage powerBar = players[currentPlayer].GetComponentInChildren<PowerBarDamage>();
+        powerBar.IncreasePower(10);
     }
 
     void InitializePlayers()
     {
-        for (int i = 0; i < players.Length; i++)
+        for (int i = 0; i < players.Count; i++)
         {
             currentPlayer = i;
             DisallowCurrentPlayerToMove();
             DisallowCurrentPlayerToFire();
             players[currentPlayer].tag = "Enemy";
+            MultiplayerPlayerId playerId = players[currentPlayer].GetComponent<MultiplayerPlayerId>();
+            playerId.SetId(currentPlayer);
         }
         NextPlayer();
+        timer.ChangeTime(0.6f);
     }
 }
