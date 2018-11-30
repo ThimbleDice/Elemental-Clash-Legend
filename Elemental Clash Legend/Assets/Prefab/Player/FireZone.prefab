@@ -127,6 +127,7 @@ MonoBehaviour:
   Bullet: {fileID: 1489601143211762, guid: 70b3ead8393a1334bbb190c37e85ae54, type: 2}
   bulletEmitter: {fileID: 1503772557006360}
   fleche: {fileID: 1815131651473898}
+  player: {fileID: 0}
 --- !u!114 &114917413318577280
 MonoBehaviour:
   m_ObjectHideFlags: 1

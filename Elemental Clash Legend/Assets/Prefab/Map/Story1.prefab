@@ -1670,6 +1670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6123167bbaffd4f429f166f4d4fbea61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentPower: 100
 --- !u!114 &114515633881879308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1683,8 +1684,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minGroundNormalY: 0.65
   gravityModifier: 1
+  playerTurn: 0
   maxSpeed: 7
   jumpTakeOffSpeed: 10
+  playerAnim: {fileID: 0}
 --- !u!114 &114605834665631382
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1742,8 +1745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfc51fe1f577cd14cba6eaebbafb47a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
-  isEnemyShot: 0
+  power: 10
+  health: 10
 --- !u!114 &114691674540260174
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1782,8 +1785,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24c8f70cb78245f4595673ccd1d2d2dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 15, y: 15}
-  direction: {x: 1, y: 0}
+  speed: NaN
+  speedMutiplier: 1
 --- !u!114 &114925492126779428
 MonoBehaviour:
   m_ObjectHideFlags: 1

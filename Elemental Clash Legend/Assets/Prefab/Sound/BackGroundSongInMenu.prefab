@@ -147,14 +147,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d072a6b26f5d74ab68381fe42c8593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClipsListJump: []
-  audioClipsListTakingDamage: []
-  audioClipsListAttack: []
-  audioClipsListDeath: []
-  audioClipsListFallDeath: []
-  audioClipsListExplosion: []
-  audioClipsListSpellCast: []
-  Victory: {fileID: 8300000, guid: d9b5ca5ca1c78c44eabb02e8556f8b33, type: 3}
-  MenuSelectSound: {fileID: 8300000, guid: 04aaa9b70ee7dce42a52ec18a5229d57, type: 3}
-  TirerSelectSound: {fileID: 8300000, guid: 134c83d6b10fe6945bba6b0cc14be6c1, type: 3}
-  ErrorSound: {fileID: 8300000, guid: 51f167233a429e041a1bb77a848211e6, type: 3}

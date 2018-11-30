@@ -21,42 +21,42 @@ public class AudioForCharacter : MonoBehaviour {
     void Start () {
         audiosource = GetComponent<AudioSource>();
 
-        audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Jump/J1"));
-        audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Jump/J2"));
-        audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Jump/J3"));
-        audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Jump/J4"));
+        audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Audio/Jump/J1"));
+        audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Audio/Jump/J2"));
+        audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Audio/Jump/J3"));
+        audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Audio/Jump/J4"));
 
-        audioClipsListTakingDamage.Add((AudioClip)Resources.Load<AudioClip>("TalingDamage/TK1"));
-        audioClipsListTakingDamage.Add((AudioClip)Resources.Load<AudioClip>("TalingDamage/TK2"));
-        audioClipsListTakingDamage.Add((AudioClip)Resources.Load<AudioClip>("TalingDamage/TK3"));
+        audioClipsListTakingDamage.Add((AudioClip)Resources.Load<AudioClip>("Audio/TalingDamage/TK1"));
+        audioClipsListTakingDamage.Add((AudioClip)Resources.Load<AudioClip>("Audio/TalingDamage/TK2"));
+        audioClipsListTakingDamage.Add((AudioClip)Resources.Load<AudioClip>("Audio/TalingDamage/TK3"));
 
-        audioClipsListAttack.Add((AudioClip)Resources.Load<AudioClip>("Attack/A1"));
-        audioClipsListAttack.Add((AudioClip)Resources.Load<AudioClip>("Attack/A2"));
-        audioClipsListAttack.Add((AudioClip)Resources.Load<AudioClip>("Attack/A3"));
-        audioClipsListAttack.Add((AudioClip)Resources.Load<AudioClip>("Attack/A4"));
+        audioClipsListAttack.Add((AudioClip)Resources.Load<AudioClip>("Audio/Attack/A1"));
+        audioClipsListAttack.Add((AudioClip)Resources.Load<AudioClip>("Audio/Attack/A2"));
+        audioClipsListAttack.Add((AudioClip)Resources.Load<AudioClip>("Audio/Attack/A3"));
+        audioClipsListAttack.Add((AudioClip)Resources.Load<AudioClip>("Audio/Attack/A4"));
 
-        audioClipsListDeath.Add((AudioClip)Resources.Load<AudioClip>("Death/D1"));
-        audioClipsListDeath.Add((AudioClip)Resources.Load<AudioClip>("Death/D2"));
+        audioClipsListDeath.Add((AudioClip)Resources.Load<AudioClip>("Audio/Death/D1"));
+        audioClipsListDeath.Add((AudioClip)Resources.Load<AudioClip>("Audio/Death/D2"));
 
-        audioClipsListFallDeath.Add((AudioClip)Resources.Load<AudioClip>("FallDeath/FD1"));
-        audioClipsListFallDeath.Add((AudioClip)Resources.Load<AudioClip>("FallDeath/FD2"));
+        audioClipsListFallDeath.Add((AudioClip)Resources.Load<AudioClip>("Audio/FallDeath/FD1"));
+        audioClipsListFallDeath.Add((AudioClip)Resources.Load<AudioClip>("Audio/FallDeath/FD2"));
 
-        audioClipsListExplosion.Add((AudioClip)Resources.Load<AudioClip>("Explosion/E1"));
-        audioClipsListExplosion.Add((AudioClip)Resources.Load<AudioClip>("Explosion/E2"));
-        audioClipsListExplosion.Add((AudioClip)Resources.Load<AudioClip>("Explosion/E3"));
-        audioClipsListExplosion.Add((AudioClip)Resources.Load<AudioClip>("Explosion/E4"));
+        audioClipsListExplosion.Add((AudioClip)Resources.Load<AudioClip>("Audio/Explosion/E1"));
+        audioClipsListExplosion.Add((AudioClip)Resources.Load<AudioClip>("Audio/Explosion/E2"));
+        audioClipsListExplosion.Add((AudioClip)Resources.Load<AudioClip>("Audio/Explosion/E3"));
+        audioClipsListExplosion.Add((AudioClip)Resources.Load<AudioClip>("Audio/Explosion/E4"));
 
-        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC1"));
-        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC2"));
-        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC3"));
-        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC4"));
-        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC5"));
-        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("SpellCasting/SC6"));
+        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("Audio/SpellCasting/SC1"));
+        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("Audio/SpellCasting/SC2"));
+        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("Audio/SpellCasting/SC3"));
+        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("Audio/SpellCasting/SC4"));
+        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("Audio/SpellCasting/SC5"));
+        audioClipsListSpellCast.Add((AudioClip)Resources.Load<AudioClip>("Audio/SpellCasting/SC6"));
 
-        Victory = (AudioClip)Resources.Load<AudioClip>("Victory/FFXIV OST Duty Complete Theme ( A Victory Fanfare Reborn )");
-        MenuSelectSound = (AudioClip)Resources.Load<AudioClip>("Menu/sfx_accept1");
-        TirerSelectSound = (AudioClip)Resources.Load<AudioClip>("Menu/sfx_click1");
-        ErrorSound = (AudioClip)Resources.Load<AudioClip>("Menu/sfx_error1");
+        Victory = (AudioClip)Resources.Load<AudioClip>("Audio/Victory/FFXIV OST Duty Complete Theme ( A Victory Fanfare Reborn )");
+        MenuSelectSound = (AudioClip)Resources.Load<AudioClip>("Audio/Menu/sfx_accept1");
+        TirerSelectSound = (AudioClip)Resources.Load<AudioClip>("Audio/Menu/sfx_click1");
+        ErrorSound = (AudioClip)Resources.Load<AudioClip>("Audio/Menu/sfx_error1");
     }
 
     public static void JumpSound()

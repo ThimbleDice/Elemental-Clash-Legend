@@ -395,6 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6123167bbaffd4f429f166f4d4fbea61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentPower: 100
 --- !u!114 &114443917960228344
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -653,6 +654,7 @@ MonoBehaviour:
   Bullet: {fileID: 1489601143211762, guid: 70b3ead8393a1334bbb190c37e85ae54, type: 2}
   bulletEmitter: {fileID: 1052400089094002}
   fleche: {fileID: 1417327588567640}
+  player: {fileID: 0}
 --- !u!114 &114845161788181346
 MonoBehaviour:
   m_ObjectHideFlags: 1
