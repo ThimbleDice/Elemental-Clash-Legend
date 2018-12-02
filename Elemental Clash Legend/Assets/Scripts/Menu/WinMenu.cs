@@ -21,5 +21,6 @@ public class WinMenu : MonoBehaviour {
 		for (int i = 0; i < objectToDisable.Length; i++) {
 			objectToDisable [i].SetActive (false);
 		}
+		AudioForCharacter.VictorySound ();
 	}
 }

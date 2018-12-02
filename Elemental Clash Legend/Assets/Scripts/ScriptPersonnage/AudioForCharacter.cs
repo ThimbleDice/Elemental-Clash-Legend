@@ -96,7 +96,7 @@ public class AudioForCharacter : MonoBehaviour {
 
     public static void VictorySound()
     {
-        audiosource.PlayOneShot(Victory);
+		GameObject.FindGameObjectWithTag("GeneralAudio").GetComponent<AudioSource>().PlayOneShot(Victory);
     }
 
     public static void MenuSelectionSound()

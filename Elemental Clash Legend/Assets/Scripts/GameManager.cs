@@ -71,15 +71,15 @@ public class GameManager : MonoBehaviour {
 				nbOfAlive++;
 				winnerId = i;
 			}
-		if (nbOfAlive == 1)
+		if (nbOfAlive == 1) {
 			MultiplayerEventManager.TriggerPlayerWon(winnerId);
+		}
 	}
 
 	public void PlayerWon(int playerId)
 	{
 		HUD.transform.Find ("WinMenu").gameObject.SetActive (true);
 		HUD.transform.Find ("WinMenu").GetComponent<WinMenu>().SetWinner ("Winner : Player " + (playerId + 1));
-		AudioForCharacter.VictorySound ();
 	}
 
 	void SwitchPhase()
