@@ -7,19 +7,19 @@ public class MultiplayerEventManager : MonoBehaviour
     public delegate void NextPhaseEvent();
     public static event NextPhaseEvent NextPhase;
 
-    public delegate void AllowCurrentPlayerToMoveEvent();
+	public delegate void AllowCurrentPlayerToMoveEvent(int currentPlayer);
     public static event AllowCurrentPlayerToMoveEvent AllowCurrentPlayerToMove;
 
-    public delegate void DisallowCurrentPlayerToMoveEvent();
+	public delegate void DisallowCurrentPlayerToMoveEvent(int currentPlayer);
     public static event DisallowCurrentPlayerToMoveEvent DisallowCurrentPlayerToMove;
 
-    public delegate void AllowCurrentPlayerToFireEvent();
+	public delegate void AllowCurrentPlayerToFireEvent(int currentPlayer);
     public static event AllowCurrentPlayerToFireEvent AllowCurrentPlayerToFire;
 
-    public delegate void DisallowCurrentPlayerToFireEvent();
+	public delegate void DisallowCurrentPlayerToFireEvent(int currentPlayer);
     public static event DisallowCurrentPlayerToFireEvent DisallowCurrentPlayerToFire;
 
-    public delegate void NextPlayerEvent();
+	public delegate void NextPlayerEvent(int currentPlayer, int nextPlayer);
     public static event NextPlayerEvent NextPlayer;
 
     public delegate void PlayerDeadEvent(int playerId);
@@ -28,40 +28,92 @@ public class MultiplayerEventManager : MonoBehaviour
     public delegate void PlayerWonEvent(int playerId);
     public static event PlayerWonEvent PlayerWon;
 
+	public static void UnsubscribeAllSubscriber()
+	{
+		if (NextPhase != null) {
+			System.Delegate[] delegates = NextPhase.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				NextPhase -= delegates [i] as NextPhaseEvent;
+			}
+		}
+		if (AllowCurrentPlayerToMove != null) {
+			System.Delegate[] delegates = AllowCurrentPlayerToMove.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				AllowCurrentPlayerToMove -= delegates [i] as AllowCurrentPlayerToMoveEvent;
+			}
+		}
+		if (DisallowCurrentPlayerToMove != null) {
+			System.Delegate[] delegates = DisallowCurrentPlayerToMove.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				DisallowCurrentPlayerToMove -= delegates [i] as DisallowCurrentPlayerToMoveEvent;
+			}
+		}
+		if (AllowCurrentPlayerToFire != null) {
+			System.Delegate[] delegates = AllowCurrentPlayerToFire.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				AllowCurrentPlayerToFire -= delegates [i] as AllowCurrentPlayerToFireEvent;
+			}
+		}
+		if (DisallowCurrentPlayerToFire != null) {
+			System.Delegate[] delegates = DisallowCurrentPlayerToFire.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				DisallowCurrentPlayerToFire -= delegates [i] as DisallowCurrentPlayerToFireEvent;
+			}
+		}
+		if (NextPlayer != null) {
+			System.Delegate[] delegates = NextPlayer.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				NextPlayer -= delegates [i] as NextPlayerEvent;
+			}
+		}
+		if (PlayerDead != null) {
+			System.Delegate[] delegates = PlayerDead.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				PlayerDead -= delegates [i] as PlayerDeadEvent;
+			}
+		}
+		if (PlayerWon != null) {
+			System.Delegate[] delegates = PlayerWon.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				PlayerWon -= delegates [i] as PlayerWonEvent;
+			}
+		}
+	}
+
     public static void TriggerNextPhase()
     {
         if (NextPhase != null)
             NextPhase();
     }
 
-    public static void TriggerAllowCurrentPlayerToMove()
+	public static void TriggerAllowCurrentPlayerToMove(int currentPlayer)
     {
         if (AllowCurrentPlayerToMove != null)
-            AllowCurrentPlayerToMove();
+			AllowCurrentPlayerToMove(currentPlayer);
     }
 
-    public static void TriggerDisallowCurrentPlayerToMove()
+	public static void TriggerDisallowCurrentPlayerToMove(int currentPlayer)
     {
         if (DisallowCurrentPlayerToMove != null)
-            DisallowCurrentPlayerToMove();
+			DisallowCurrentPlayerToMove(currentPlayer);
     }
 
-    public static void TriggerAllowCurrentPlayerToFire()
+	public static void TriggerAllowCurrentPlayerToFire(int currentPlayer)
     {
         if (AllowCurrentPlayerToFire != null)
-            AllowCurrentPlayerToFire();
+			AllowCurrentPlayerToFire(currentPlayer);
     }
 
-    public static void TriggerDisallowCurrentPlayerToFire()
+	public static void TriggerDisallowCurrentPlayerToFire(int currentPlayer)
     {
         if (DisallowCurrentPlayerToFire != null)
-            DisallowCurrentPlayerToFire();
+			DisallowCurrentPlayerToFire(currentPlayer);
     }
 
-    public static void TriggerNextPlayer()
+	public static void TriggerNextPlayer(int currentPlayer, int nextPlayer)
     {
         if (NextPlayer != null)
-            NextPlayer();
+			NextPlayer(currentPlayer, nextPlayer);
     }
 
     public static void TriggerPlayerDead(int playerId)

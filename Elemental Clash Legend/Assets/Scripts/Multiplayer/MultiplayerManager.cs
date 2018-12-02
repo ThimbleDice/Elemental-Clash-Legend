@@ -14,12 +14,13 @@ public class MultiplayerManager : MonoBehaviour {
 	private changeTimerTime timer;
 	private GameObject winMenu;
 
-	private PlayerData[] playersData;
+	public PlayerData[] playersData;
     private int phase;
     private int currentPlayer;
 
     private void Awake()
     {
+		/*
         MultiplayerEventManager.NextPhase += NextPhase;
         MultiplayerEventManager.AllowCurrentPlayerToMove += AllowCurrentPlayerToMove;
         MultiplayerEventManager.DisallowCurrentPlayerToMove += DisallowCurrentPlayerToMove;
@@ -29,6 +30,7 @@ public class MultiplayerManager : MonoBehaviour {
         MultiplayerEventManager.PlayerDead += PlayerDead;
         MultiplayerEventManager.PlayerWon += PlayerWon;
 		Instantiate (HUD);
+		*/
         currentPlayer = 0;
         phase = 0;
 		currentPlayerHud = GameObject.FindGameObjectWithTag ("CurrentPlayerHud").GetComponent<Text> ();
@@ -53,7 +55,7 @@ public class MultiplayerManager : MonoBehaviour {
     }
 
     void NextPhase()
-    {
+    {/*
 		print ("Next Phase");
 		print (phase);
         switch (phase)
@@ -75,7 +77,7 @@ public class MultiplayerManager : MonoBehaviour {
                 break;
             default:
                 break;
-        }
+        } */
     }
 
     public void PlayerDead(int playerId)
@@ -117,7 +119,7 @@ public class MultiplayerManager : MonoBehaviour {
 			ChangePhaseHud("Movement");
 			if (NeedToReloadPlayersData())
 				ReloadPlayersData();
-            playersData[currentPlayer].changePlayerActiveState.StartMovePhase();
+            //playersData[currentPlayer].changePlayerActiveState.StartMovePhase();
             phase = 1;
 			changeTimerTime(2.0f);
 			timer.Enable();
@@ -135,7 +137,7 @@ public class MultiplayerManager : MonoBehaviour {
 			ChangePhaseHud("End movement");
 			if (NeedToReloadPlayersData())
 				ReloadPlayersData();
-			playersData[currentPlayer].changePlayerActiveState.EndMovePhase();
+			//playersData[currentPlayer].changePlayerActiveState.EndMovePhase();
             phase = 2;
 			changeTimerTime(1.0f);
 			timer.Enable();
@@ -153,7 +155,7 @@ public class MultiplayerManager : MonoBehaviour {
 			ChangePhaseHud("Cast");
 			if (NeedToReloadPlayersData())
 				ReloadPlayersData();
-			playersData[currentPlayer].changePlayerActiveState.StartFirePhase();
+			//playersData[currentPlayer].changePlayerActiveState.StartFirePhase();
             phase = 3;
 			changeTimerTime(5.0f);
 			timer.Enable();
@@ -171,7 +173,7 @@ public class MultiplayerManager : MonoBehaviour {
 			ChangePhaseHud("End cast");
 			if (NeedToReloadPlayersData())
 				ReloadPlayersData();
-			playersData[currentPlayer].changePlayerActiveState.EndFirePhase();
+			//playersData[currentPlayer].changePlayerActiveState.EndFirePhase();
             phase = 4;
 			changeTimerTime(0.0f);
             timer.Disable();
@@ -215,8 +217,8 @@ public class MultiplayerManager : MonoBehaviour {
         for (int i = 0; i < playersData.Length; i++)
         {
 			currentPlayer = i;
-			playersData[currentPlayer].changePlayerActiveState.EndMovePhase();
-			playersData[currentPlayer].changePlayerActiveState.EndFirePhase();
+			//playersData[currentPlayer].changePlayerActiveState.EndMovePhase();
+			//playersData[currentPlayer].changePlayerActiveState.EndFirePhase();
             playersData[currentPlayer].gameObject.tag = "Enemy";
             MultiplayerPlayerId playerId = playersData[currentPlayer].gameObject.GetComponent<MultiplayerPlayerId>();
             playerId.SetId(currentPlayer);
@@ -295,7 +297,7 @@ public class MultiplayerManager : MonoBehaviour {
 	}
 }
 
-class PlayerData
+public class PlayerData
 {
     public GameObject gameObject;
     public bool dead;

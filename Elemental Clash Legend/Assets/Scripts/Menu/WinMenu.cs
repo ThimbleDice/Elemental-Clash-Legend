@@ -8,9 +8,9 @@ public class WinMenu : MonoBehaviour {
 	public Text winnerText;
     public void MainMenu()
     {
+		MultiplayerEventManager.UnsubscribeAllSubscriber ();
 		Time.timeScale = 1;
         SceneManager.LoadScene(0);
-		SceneManager.UnloadSceneAsync (1);
     }
 
 	public void SetWinner(string winner)

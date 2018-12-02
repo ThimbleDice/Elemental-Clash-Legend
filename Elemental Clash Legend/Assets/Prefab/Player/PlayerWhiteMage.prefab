@@ -72,7 +72,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1356292000714482
 GameObject:
   m_ObjectHideFlags: 1
@@ -778,8 +778,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc82d3be327cc74a97d0866eae1a0b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireZone: {fileID: 0}
-  playerController: {fileID: 0}
+  fireZone: {fileID: 1333206648648506}
+  playerController: {fileID: 114603547024003338}
 --- !u!114 &114832382006189530
 MonoBehaviour:
   m_ObjectHideFlags: 1

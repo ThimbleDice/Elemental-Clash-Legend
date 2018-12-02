@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224354051945249440}
   - component: {fileID: 222346978481828130}
   - component: {fileID: 114542371418864766}
+  - component: {fileID: 114036949581113908}
   m_Layer: 5
   m_Name: CurrentPlayerName_Text
   m_TagString: CurrentPlayerHud
@@ -177,6 +178,7 @@ GameObject:
   - component: {fileID: 224989781534245728}
   - component: {fileID: 222384165451103994}
   - component: {fileID: 114520560449861706}
+  - component: {fileID: 114073829761263392}
   m_Layer: 5
   m_Name: PhaseText
   m_TagString: CurrentPhaseHud
@@ -371,6 +373,17 @@ Transform:
   m_Father: {fileID: 224850306062524034}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114036949581113908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1038564279277304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e2351f416bd95449d598a1e1b56a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114044286211619288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -394,6 +407,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optionMenu: {fileID: 114682241078014696}
+--- !u!114 &114073829761263392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512611053601396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cabe89594a55974186bb51d9e3ebcae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114207338758320594
 MonoBehaviour:
   m_ObjectHideFlags: 1
