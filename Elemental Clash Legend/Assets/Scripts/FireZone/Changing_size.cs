@@ -14,38 +14,35 @@ public class Changing_size : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         
-        if (Input.GetAxis("Fire1") > 0)
-        {
+		if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+		{
+			temp = transform.localScale;
+			if (temp.x <= 0.4f)
+			{
+				temp.x += 0.01f;
+			}
 
-            temp = transform.localScale;
-            if (temp.x <= 0.4f)
-            {
-                temp.x += 0.005f;
-            }
-            
-            if (temp.y <= 0.4f)
-            {
-                temp.y += 0.005f;
-            }
-            
-            transform.localScale = temp;
+			if (temp.y <= 0.4f)
+			{
+				temp.y += 0.01f;
+			}
 
-        } else if (Input.GetAxis("Fire2") > 0)
+			transform.localScale = temp;
+		}
+		else if(Input.GetAxis("Mouse ScrollWheel") < 0f)
+		{
+			temp = transform.localScale;
+			if (temp.x >= 0)
+			{
+				temp.x -= 0.01f;
+			}
 
-        {
-            temp = transform.localScale;
-            if (temp.x >= 0)
-            {
-                temp.x -= 0.005f;
-            }
+			if (temp.y >= 0)
+			{
+				temp.y -= 0.01f;
+			}
 
-            if (temp.y >= 0)
-            {
-                temp.y -= 0.005f;
-            }
-
-            transform.localScale = temp;
-        }
-     
+			transform.localScale = temp;
+		}
 	}
 }

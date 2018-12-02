@@ -28,6 +28,18 @@ public class MultiplayerEventManager : MonoBehaviour
     public delegate void PlayerWonEvent(int playerId);
     public static event PlayerWonEvent PlayerWon;
 
+	public delegate void TimerEndEvent();
+	public static event TimerEndEvent TimerEnd;
+
+	public delegate void PlayerCastEvent();
+	public static event PlayerCastEvent PlayerCast;
+
+	public delegate void SpellEndEvent();
+	public static event SpellEndEvent SpellEnd;
+
+	public delegate void NextPlayerButtonClickEvent();
+	public static event NextPlayerButtonClickEvent NextPlayerButtonClick;
+
 	public static void UnsubscribeAllSubscriber()
 	{
 		if (NextPhase != null) {
@@ -76,6 +88,30 @@ public class MultiplayerEventManager : MonoBehaviour
 			System.Delegate[] delegates = PlayerWon.GetInvocationList ();
 			for (int i = 0; i < delegates.Length; i++) {
 				PlayerWon -= delegates [i] as PlayerWonEvent;
+			}
+		}
+		if (TimerEnd != null) {
+			System.Delegate[] delegates = TimerEnd.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				TimerEnd -= delegates [i] as TimerEndEvent;
+			}
+		}
+		if (PlayerCast != null) {
+			System.Delegate[] delegates = PlayerCast.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				PlayerCast -= delegates [i] as PlayerCastEvent;
+			}
+		}
+		if (SpellEnd != null) {
+			System.Delegate[] delegates = SpellEnd.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				SpellEnd -= delegates [i] as SpellEndEvent;
+			}
+		}
+		if (NextPlayerButtonClick != null) {
+			System.Delegate[] delegates = NextPlayerButtonClick.GetInvocationList ();
+			for (int i = 0; i < delegates.Length; i++) {
+				NextPlayerButtonClick -= delegates [i] as NextPlayerButtonClickEvent;
 			}
 		}
 	}
@@ -127,4 +163,28 @@ public class MultiplayerEventManager : MonoBehaviour
         if (PlayerWon != null)
             PlayerWon(playerId);
     }
+
+	public static void TriggerTimerEnd()
+	{
+		if (TimerEnd != null)
+			TimerEnd();
+	}
+
+	public static void TriggerPlayerCast()
+	{
+		if (PlayerCast != null)
+			PlayerCast();
+	}
+
+	public static void TriggerSpellEnd()
+	{
+		if (SpellEnd != null)
+			SpellEnd();
+	}
+
+	public static void TriggerNextPlayerButtonClick()
+	{
+		if (NextPlayerButtonClick != null)
+			NextPlayerButtonClick();
+	}
 }

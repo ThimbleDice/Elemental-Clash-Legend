@@ -13,35 +13,24 @@ public class PlayerPlatformerController : PhysicsObject
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-	private Vector2 lastMove;
-	private int frameCountSinceLastMove;
 
     // Use this for initialization
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-		lastMove = Vector2.zero;
-        frameCountSinceLastMove = 0;
     }
 
     protected override void ComputeVelocity()
     {
         Vector2 move = Vector2.zero;
 
+		if (grounded)
+			GetGrounded();
         if (playerTurn){
             move.x = Input.GetAxis("Horizontal");
-            lastMove = move;
-            frameCountSinceLastMove = 0;
             PlayerInput();
         }
-        else if(frameCountSinceLastMove <= 10)
-        {
-            frameCountSinceLastMove++;
-            move.x = (lastMove.x / frameCountSinceLastMove);
-        }
-        if (grounded)
-            GetGrounded();
 
         if (move.x == 0.00f)
         {

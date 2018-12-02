@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class FireGun : MonoBehaviour {
     [SerializeField] public GameObject Bullet;
-    [SerializeField] GameObject bulletEmitter;
-    [SerializeField] GameObject fleche;
-    [SerializeField] GameObject player;
+	[SerializeField] public GameObject bulletEmitter;
+	[SerializeField] public GameObject fleche;
+	[SerializeField] public GameObject player;
 
     bool active = false;
     bool fired = false;
@@ -34,7 +34,7 @@ public class FireGun : MonoBehaviour {
         player.gameObject.GetComponentInChildren<PowerBarDamage>().DecreasePower(Bullet.transform.GetComponent<ShotScript>().power);
         fired = true;
         AudioForCharacter.CastASpell();
-        MultiplayerEventManager.TriggerNextPhase();
+		MultiplayerEventManager.TriggerPlayerCast ();
     }
 
     public void Activate()

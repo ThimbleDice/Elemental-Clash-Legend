@@ -41,7 +41,8 @@ public class SpellColision : MonoBehaviour {
         else if(collision.gameObject.tag == "Enemy")
         {
             destroyTerrain(collision);
-            collision.gameObject.GetComponentInChildren<HealthBarDamage>().DicreaseHealth(GameObject.FindGameObjectWithTag("Effet").transform.GetComponent<ShotScript>().power);
+			int dmg = gameObject.GetComponent<ShotScript> ().health;
+            collision.gameObject.GetComponentInChildren<HealthBarDamage>().DicreaseHealth(dmg);
             destroyObject();
         }
         else if(collision.gameObject != friend)
@@ -69,7 +70,7 @@ public class SpellColision : MonoBehaviour {
 
     private void destroyObject()
     {
-        MultiplayerEventManager.TriggerNextPhase();
+        MultiplayerEventManager.TriggerSpellEnd();
         hitCount++;
         if (hitCount >= MaxHit)
             Destroy(gameObject);

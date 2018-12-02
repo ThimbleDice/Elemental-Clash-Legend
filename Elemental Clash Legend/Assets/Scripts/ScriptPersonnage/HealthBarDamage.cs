@@ -2,6 +2,7 @@
 
 public class HealthBarDamage : MonoBehaviour
 {
+	public ParticleSystem blood;
     private SimpleHealthBar healthBar;
     int health = 10;
     float currentHealth = 100;
@@ -48,22 +49,28 @@ public class HealthBarDamage : MonoBehaviour
         }
     }
 
-    public void DicreaseHealth(int healt)
-    {   
-        //if (Input.GetKeyDown("up"))
-        //{
-            currentHealth -= health;
-            healthBar.UpdateBar(currentHealth, maxHealth);
+    public void DicreaseHealth(int dmg)
+    {
+		currentHealth -= dmg;
+        healthBar.UpdateBar(currentHealth, maxHealth);
 
-            if (currentHealth <= mediumHealth)
-            {
-                healthBar.UpdateColor(Color.yellow);
-            }
+        if (currentHealth <= mediumHealth)
+        {
+            healthBar.UpdateColor(Color.yellow);
+        }
 
-            if (currentHealth <= criticalHealth)
-            {
-               healthBar.UpdateColor(Color.red);
-            }
-        //}
+        if (currentHealth <= criticalHealth)
+        {
+           healthBar.UpdateColor(Color.red);
+        }
+
+		if (currentHealth <= 0) {
+			GameObject player = gameObject.transform.parent.transform.parent.gameObject;
+			if (blood != null) {
+				Instantiate (blood, player.transform.position, new Quaternion ());
+			}
+			MultiplayerEventManager.TriggerPlayerDead (player.GetComponent<MultiplayerPlayerId>().GetId());
+			Destroy (player);
+		}
     }
 }

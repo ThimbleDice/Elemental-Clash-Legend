@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class WinMenu : MonoBehaviour {
 	public Text winnerText;
+	public GameObject[] objectToDisable;
+
     public void MainMenu()
     {
 		MultiplayerEventManager.UnsubscribeAllSubscriber ();
@@ -16,5 +18,8 @@ public class WinMenu : MonoBehaviour {
 	public void SetWinner(string winner)
 	{
 		winnerText.text = winner;
+		for (int i = 0; i < objectToDisable.Length; i++) {
+			objectToDisable [i].SetActive (false);
+		}
 	}
 }

@@ -486,6 +486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a4943b74b31d214b87c14ee10af6e8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blood: {fileID: 198552880624566846, guid: d58cdee4622cdee408c993e959e46399, type: 2}
 --- !u!114 &114422230134548444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -780,6 +781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireZone: {fileID: 1333206648648506}
   playerController: {fileID: 114603547024003338}
+  playerId: {fileID: 0}
 --- !u!114 &114832382006189530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -848,6 +850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a4943b74b31d214b87c14ee10af6e8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  blood: {fileID: 0}
 --- !u!114 &114930192364428828
 MonoBehaviour:
   m_ObjectHideFlags: 1

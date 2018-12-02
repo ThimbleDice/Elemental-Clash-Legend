@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SpawnObject : MonoBehaviour {
 
-    [SerializeField] GameObject objetAFaireApparaitre;
-    [SerializeField] GameObject objetAFaireApparaitre2;
+    [SerializeField] public GameObject objetAFaireApparaitre;
+	[SerializeField] public GameObject objetAFaireApparaitre2;
     Vector3 endroit_a_apparaitre;
     Quaternion rotationObjet;
     float randomPositionX;
@@ -17,11 +17,17 @@ public class SpawnObject : MonoBehaviour {
         rotationObjet = new Quaternion(0,0,0,0);
         randomizePosition();
         InvokeRepeating("InstantiatieObjet", spawnTime, spawnTime);
+		MultiplayerEventManager.PlayerWon += MultiplayerEventManager_PlayerWon;
     }
 	
 	// Update is called once per frame
 	void Update () {
         randomizePosition();
+    }
+
+    void MultiplayerEventManager_PlayerWon (int playerId)
+    {
+		CancelInvoke ("InstantiatieObjet");
     }
 
     private void InstantiatieObjet()

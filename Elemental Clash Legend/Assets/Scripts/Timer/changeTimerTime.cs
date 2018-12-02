@@ -11,6 +11,8 @@ public class changeTimerTime : MonoBehaviour {
     private float currentTime = 0.0f;
     private bool enable = true;
     private float lastUpdatedTime = 0.0f;
+	private int lastPhaseTriggerTimerEnd;
+	private int phase;
 
 	private void Start()
 	{
@@ -31,7 +33,8 @@ public class changeTimerTime : MonoBehaviour {
 			}
 			if (currentTime == 0.0f) {
 				Disable ();
-				MultiplayerEventManager.TriggerNextPhase();
+				lastPhaseTriggerTimerEnd = phase;
+				MultiplayerEventManager.TriggerTimerEnd();
 			}
         }
         UpdateTimer();
@@ -70,31 +73,41 @@ public class changeTimerTime : MonoBehaviour {
 
 	private void StartMovePhase(int currentPlayer)
 	{
+		phase = 0;
 		ChangeTime (2.0f);
 		Enable ();
 	}
 
 	private void EndMovePhase(int currentPlayer)
 	{
+		phase = 1;
 		ChangeTime (1.0f);
 		Enable ();
 	}
 
 	private void StartFirePhase(int currentPlayer)
 	{
+		phase = 2;
 		ChangeTime (3.0f);
 		Enable ();
 	}
 
 	private void EndFirePhase(int currentPlayer)
 	{
+		phase = 3;
 		ChangeTime (0.0f);
-		Disable ();
+		if (lastPhaseTriggerTimerEnd == 2) {
+			Enable ();
+		} else {
+			Disable ();
+		}
+
 	}
 
 	private void NextPlayer(int currentPlayer, int nextPlayer)
 	{
-		ChangeTime (5.0f);
-		Enable ();
+		phase = 4;
+		ChangeTime (0.0f);
+		Disable ();
 	}
 }

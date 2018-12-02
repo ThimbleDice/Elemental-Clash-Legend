@@ -20,19 +20,13 @@ public class GameManager : MonoBehaviour {
 		InstantiatePlayers ();
 		InstantiateHUD ();
 		currentPlayer = 0;
+		MultiplayerEventManager.TimerEnd += SwitchPhase;
+		MultiplayerEventManager.PlayerCast += SwitchPhase;
+		MultiplayerEventManager.SpellEnd += SwitchPhase;
+		MultiplayerEventManager.PlayerDead += PlayerDead;
+		MultiplayerEventManager.PlayerWon += PlayerWon;
+		MultiplayerEventManager.NextPlayerButtonClick += SwitchPhase;
 		currentPhase = -1;
-	}
-
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown(KeyCode.M))
-		{
-			SceneManager.LoadScene (0);
-		}
-		if (Input.GetKeyDown(KeyCode.N))
-		{
-			SwitchPhase ();
-		}
 	}
 
 	private void InstantiateMap()
@@ -60,8 +54,37 @@ public class GameManager : MonoBehaviour {
 		HUD.transform.Find ("WinMenu").gameObject.SetActive (false);
 	}
 
+	public void PlayerDead(int playerId)
+	{
+		deadPlayer [playerId] = true;
+		if (playerId == currentPlayer)
+			NextPlayer();
+		CheckIfWinner();
+	}
+
+	public void CheckIfWinner()
+	{
+		int nbOfAlive = 0;
+		int winnerId = -1;
+		for (int i = 0; i < players.Length; i++)
+			if (!deadPlayer[i]) {
+				nbOfAlive++;
+				winnerId = i;
+			}
+		if (nbOfAlive == 1)
+			MultiplayerEventManager.TriggerPlayerWon(winnerId);
+	}
+
+	public void PlayerWon(int playerId)
+	{
+		HUD.transform.Find ("WinMenu").gameObject.SetActive (true);
+		HUD.transform.Find ("WinMenu").GetComponent<WinMenu>().SetWinner ("Winner : Player " + (playerId + 1));
+		AudioForCharacter.VictorySound ();
+	}
+
 	void SwitchPhase()
 	{
+		print (currentPhase);
 		currentPhase = (currentPhase + 1) % 5;
 		switch (currentPhase)
 		{
@@ -78,11 +101,23 @@ public class GameManager : MonoBehaviour {
 			MultiplayerEventManager.TriggerDisallowCurrentPlayerToFire(currentPlayer);
 			break;
 		case 4:
-			MultiplayerEventManager.TriggerNextPlayer (currentPlayer, ((currentPlayer + 1) % players.Length));
-			currentPlayer = (currentPlayer + 1) % players.Length;
+			int lastPlayer = currentPlayer;
+			NextPlayer ();
+			MultiplayerEventManager.TriggerNextPlayer (lastPlayer, currentPlayer);
 			break;
 		default:
 			break;
+		}
+	}
+
+	private void NextPlayer()
+	{
+		int lastPlayer = currentPlayer;
+		do {
+			currentPlayer = (currentPlayer + 1) % players.Length;
+		} while (deadPlayer[currentPlayer] && currentPlayer != lastPlayer);
+		if (currentPlayer == lastPlayer) {
+			PlayerWon (currentPlayer);
 		}
 	}
 }
