@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,12 +13,16 @@ public class PlayerPlatformerController : PhysicsObject
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+	private Vector2 lastMove;
+	private int frameCountSinceLastMove;
 
     // Use this for initialization
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+		lastMove = Vector2.zero;
+        frameCountSinceLastMove = 0;
     }
 
     protected override void ComputeVelocity()
@@ -26,17 +31,18 @@ public class PlayerPlatformerController : PhysicsObject
 
         if (playerTurn){
             move.x = Input.GetAxis("Horizontal");
+            lastMove = move;
+            frameCountSinceLastMove = 0;
             PlayerInput();
+        }
+        else if(frameCountSinceLastMove <= 10)
+        {
+            frameCountSinceLastMove++;
+            move.x = (lastMove.x / frameCountSinceLastMove);
         }
         if (grounded)
             GetGrounded();
 
-
-        animator.SetFloat("YVelocity", velocity.y);
-        animator.SetFloat("XVelocity", velocity.x);
-        
-
-        //bool flipSprite = (spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f));
         if (move.x == 0.00f)
         {
 
@@ -51,12 +57,13 @@ public class PlayerPlatformerController : PhysicsObject
         }
 
         animator.SetBool("Grounded", grounded);
+		animator.SetFloat("YVelocity", velocity.y);
         animator.SetFloat("XVelocity", Mathf.Abs(velocity.x) / maxSpeed);
 
         targetVelocity = move * maxSpeed;
     }
 
-    public void PlayerInput()
+	public void PlayerInput()
     {
         if (Input.GetButtonDown("Jump") && grounded)
         {

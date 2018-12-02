@@ -19,7 +19,7 @@ public class AudioForCharacter : MonoBehaviour {
     private static AudioSource audiosource;
 
     void Start () {
-        audiosource = GetComponent<AudioSource>();
+        audiosource = gameObject.GetComponent<AudioSource>();
 
         audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Audio/Jump/J1"));
         audioClipsListJump.Add((AudioClip)Resources.Load<AudioClip>("Audio/Jump/J2"));

@@ -32,8 +32,7 @@ public class OutOfMap : MonoBehaviour {
         if (gameObject.tag == "Player" || gameObject.tag == "Enemy")
         {
             AudioForCharacter.FallDeathSound();
-            PlayerDeath playerDeath =  gameObject.GetComponent<PlayerDeath>();
-            playerDeath.Death();
+            MultiplayerEventManager.TriggerPlayerDead(gameObject.GetComponent<MultiplayerPlayerId>().GetId());
         }
         Destroy(gameObject);
     }

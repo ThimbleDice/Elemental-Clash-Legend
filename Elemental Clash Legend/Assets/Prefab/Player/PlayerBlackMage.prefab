@@ -30,6 +30,7 @@ GameObject:
   - component: {fileID: 114060143247365748}
   - component: {fileID: 114832382006189530}
   - component: {fileID: 114547275799457232}
+  - component: {fileID: 114577721996957190}
   m_Layer: 0
   m_Name: PlayerBlackMage
   m_TagString: Player
@@ -604,6 +605,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114577721996957190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1049573181129812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4a6ba7d6103e714a89347c8c28c7a90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
 --- !u!114 &114603547024003338
 MonoBehaviour:
   m_ObjectHideFlags: 1

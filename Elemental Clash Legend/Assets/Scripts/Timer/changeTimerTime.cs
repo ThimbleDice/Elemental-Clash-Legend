@@ -8,19 +8,22 @@ public class changeTimerTime : MonoBehaviour {
     [SerializeField] public Text second;
     [SerializeField] public Text tenthSecond;
 
-    private float currentTime = 0;
+    private float currentTime = 0.0f;
     private bool enable = true;
-    private float lastUpdatedTime = 0;
+    private float lastUpdatedTime = 0.0f;
 
     private void Update()
     {
         if (enable)
         {
             currentTime -= Time.deltaTime;
-            if (currentTime < 0)
-                currentTime = 0;
-            if (currentTime == 0)
-                MultiplayerEventManager.TriggerNextPhase();
+			if (currentTime < 0.0f) {
+				currentTime = 0.0f;
+			}
+			if (currentTime == 0.0f) {
+				Disable ();
+				MultiplayerEventManager.TriggerNextPhase();
+			}
         }
         UpdateTimer();
     }

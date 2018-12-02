@@ -22,6 +22,12 @@ public class MultiplayerEventManager : MonoBehaviour
     public delegate void NextPlayerEvent();
     public static event NextPlayerEvent NextPlayer;
 
+    public delegate void PlayerDeadEvent(int playerId);
+    public static event PlayerDeadEvent PlayerDead;
+
+    public delegate void PlayerWonEvent(int playerId);
+    public static event PlayerWonEvent PlayerWon;
+
     public static void TriggerNextPhase()
     {
         if (NextPhase != null)
@@ -56,5 +62,17 @@ public class MultiplayerEventManager : MonoBehaviour
     {
         if (NextPlayer != null)
             NextPlayer();
+    }
+
+    public static void TriggerPlayerDead(int playerId)
+    {
+        if (PlayerDead != null)
+            PlayerDead(playerId);
+    }
+
+    public static void TriggerPlayerWon(int playerId)
+    {
+        if (PlayerWon != null)
+            PlayerWon(playerId);
     }
 }

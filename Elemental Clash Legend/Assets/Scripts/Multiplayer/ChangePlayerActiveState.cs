@@ -13,27 +13,26 @@ public class ChangePlayerActiveState : MonoBehaviour {
         if (fireZone == null)
             fireZone = transform.Find("FireZone").gameObject;
         if (playerController == null)
-            playerController = GetComponent<PlayerPlatformerController>();
+			playerController = gameObject.GetComponent<PlayerPlatformerController>();
     }
 
-    public void StartMovePhase()
+	public void StartMovePhase()
     {
-        if (playerController != null)
-        {
-            playerController.playerTurn = true;
-        }
-        else
-            throw new MultiplayerException("PlayerPlatformerController cannot be found");
+		if (playerController != null) {
+			playerController.playerTurn = true;
+		} else {
+			throw new MultiplayerException("StartMovePhase : PlayerPlatformerController cannot be found");
+		}
     }
 
-    public void EndMovePhase()
+	public void EndMovePhase()
     {
         if (playerController != null)
         {
             playerController.playerTurn = false;
-        }
-        else
-            throw new MultiplayerException("PlayerPlatformerController cannot be found");
+		} else {
+			throw new MultiplayerException("EndMovePhase : PlayerPlatformerController cannot be found");
+		}
     }
 
     public void StartFirePhase()
@@ -44,7 +43,7 @@ public class ChangePlayerActiveState : MonoBehaviour {
             fireZone.SetActive(true);
         }
         else
-            throw new MultiplayerException("FireZone cannot be found");
+			throw new MultiplayerException("StartFirePhase : FireZone cannot be found");
     }
 
     public void EndFirePhase()
@@ -55,6 +54,6 @@ public class ChangePlayerActiveState : MonoBehaviour {
             fireZone.SetActive(false);
         }
         else
-            throw new MultiplayerException("FireZone cannot be found");
+			throw new MultiplayerException("EndFirePhase : FireZone cannot be found");
     }
 }

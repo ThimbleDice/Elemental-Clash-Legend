@@ -15,6 +15,10 @@ TagManager:
   - Enemy
   - GeneralAudio
   - MultiplayerManager
+  - CurrentPhaseHud
+  - Timer
+  - WinMenu
+  - CurrentPlayerHud
   layers:
   - Default
   - TransparentFX
