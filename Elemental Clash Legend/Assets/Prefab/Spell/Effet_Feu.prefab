@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   power: 60
-  health: 400
+  health: 40
 --- !u!212 &212614332439620142
 SpriteRenderer:
   m_ObjectHideFlags: 1

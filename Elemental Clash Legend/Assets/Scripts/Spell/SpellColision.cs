@@ -32,30 +32,32 @@ public class SpellColision : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
-        if (tilemap != null && tilemapGameObject == collision.gameObject)
+        int centerCollision = collision.contactCount / 2;
+        ContactPoint2D hit = collision.contacts[centerCollision];
+        int dmg = gameObject.GetComponent<ShotScript>().health;
+        if ((tilemap != null && tilemapGameObject == collision.gameObject) || collision.gameObject.tag == "Enemy")
         {
-            destroyTerrain(collision);
-            destroyObject();
-        }
-        else if(collision.gameObject.tag == "Enemy")
-        {
-            destroyTerrain(collision);
-			int dmg = gameObject.GetComponent<ShotScript> ().health;
-            collision.gameObject.GetComponentInChildren<HealthBarDamage>().DicreaseHealth(dmg);
-            destroyObject();
-        }
-        else if(collision.gameObject != friend)
-        {
+            destroyTerrain(hit);
+            ExplosionDamage(new Vector3(hit.point.x, hit.point.y), DestructionRadius * MapScale, dmg);
             destroyObject();
         }
     }
 
-    private void destroyTerrain(Collision2D collision)
+    void ExplosionDamage(Vector3 center, float radius, int dmg)
+    {
+        GameManager gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+        for (int i = 0; i < gameManager.players.Length; i++)
+        {
+            if (Vector3.Distance(gameManager.players[i].transform.position, center) <= radius)
+            {
+                gameManager.players[i].GetComponentInChildren<HealthBarDamage>().DicreaseHealth(dmg);
+            }
+        }
+    }
+
+    private void destroyTerrain(ContactPoint2D hit)
     {
         Vector3 hitPosition = Vector3.zero;
-        int centerCollision = collision.contactCount / 2;
-        ContactPoint2D hit = collision.contacts[centerCollision];
 
         for (float x = -DestructionRadius; x < (DestructionRadius == 0 ? 1 : DestructionRadius); x++)
         {
@@ -63,7 +65,10 @@ public class SpellColision : MonoBehaviour {
             {
                 hitPosition.x = hit.point.x + (x * MapScale) - 0.01f * hit.normal.x;
                 hitPosition.y = hit.point.y + (y * MapScale) - 0.01f * hit.normal.y;
-                tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
+                if (Vector3.Distance(hitPosition, new Vector3(hit.point.x, hit.point.y)) <= DestructionRadius * MapScale)
+                {
+                    tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
+                }
             }
         }
     }

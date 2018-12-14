@@ -627,16 +627,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: players.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: spawnPoints.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4123559419271716, guid: a495aeec16b9b1742b9d069a1ed792a2, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.7959817
@@ -669,79 +659,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: currentPlayerHud
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: currentPhaseHud
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: timer
-      value: 
+    - target: {fileID: 1825146880825536, guid: a495aeec16b9b1742b9d069a1ed792a2, type: 2}
+      propertyPath: m_Name
+      value: GameManager
       objectReference: {fileID: 0}
     - target: {fileID: 1825146880825536, guid: a495aeec16b9b1742b9d069a1ed792a2, type: 2}
       propertyPath: m_TagString
-      value: MultiplayerManager
+      value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: winMenu
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: players.Array.data[0]
-      value: 
-      objectReference: {fileID: 1049573181129812, guid: b155cd47e5a75c14d9ad3b0ae9f54073,
-        type: 2}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: players.Array.data[1]
-      value: 
-      objectReference: {fileID: 1049573181129812, guid: 4da943030369b0144929006a8d70a954,
-        type: 2}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: spawnPoints.Array.data[0].x
-      value: -8.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: spawnPoints.Array.data[0].y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: spawnPoints.Array.data[1].x
-      value: 3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: spawnPoints.Array.data[1].y
-      value: 3.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: HUD
-      value: 
-      objectReference: {fileID: 1253679818658554, guid: 049a9afcc63230d48b0153546d172aa3,
-        type: 2}
-    - target: {fileID: 1825146880825536, guid: a495aeec16b9b1742b9d069a1ed792a2, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114892012708455868, guid: a495aeec16b9b1742b9d069a1ed792a2, type: 2}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a495aeec16b9b1742b9d069a1ed792a2, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1576830581
@@ -819,30 +745,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1649145270 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1825146880825536, guid: a495aeec16b9b1742b9d069a1ed792a2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1480808703}
---- !u!114 &1649145271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1649145270}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93887f07504db1843b544931269e5fa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  players:
-  - {fileID: 1049573181129812, guid: 4da943030369b0144929006a8d70a954, type: 2}
-  - {fileID: 1049573181129812, guid: b155cd47e5a75c14d9ad3b0ae9f54073, type: 2}
-  spawnPoints:
-  - {x: -8.3, y: 1.5, z: 0}
-  - {x: 3.5, y: 3.7, z: 0}
-  map: {fileID: 1529712050167674, guid: 3bba95f8cce269e46aadffec9fdcddca, type: 2}
-  HUD: {fileID: 1253679818658554, guid: 049a9afcc63230d48b0153546d172aa3, type: 2}
-  deadPlayer: 
-  currentPhase: 0
-  currentPlayer: 0

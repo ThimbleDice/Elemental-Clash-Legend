@@ -84,7 +84,6 @@ public class GameManager : MonoBehaviour {
 
 	void SwitchPhase()
 	{
-		print (currentPhase);
 		currentPhase = (currentPhase + 1) % 5;
 		switch (currentPhase)
 		{

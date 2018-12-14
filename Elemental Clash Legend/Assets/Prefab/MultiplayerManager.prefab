@@ -19,10 +19,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4123559419271716}
-  - component: {fileID: 114892012708455868}
+  - component: {fileID: 114512335166283128}
   m_Layer: 0
   m_Name: MultiplayerManager
-  m_TagString: Untagged
+  m_TagString: MultiplayerManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40,7 +40,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114892012708455868
+--- !u!114 &114512335166283128
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48,9 +48,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1825146880825536}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3aaad786016bef42a8bef7424a997af, type: 3}
+  m_Script: {fileID: 11500000, guid: 93887f07504db1843b544931269e5fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentPlayerHud: {fileID: 0}
-  currentPhaseHud: {fileID: 0}
-  timer: {fileID: 0}
+  players:
+  - {fileID: 1049573181129812, guid: 4da943030369b0144929006a8d70a954, type: 2}
+  - {fileID: 1049573181129812, guid: b155cd47e5a75c14d9ad3b0ae9f54073, type: 2}
+  spawnPoints:
+  - {x: -8.3, y: 1.5, z: 0}
+  - {x: 3.5, y: 3.7, z: 0}
+  map: {fileID: 1529712050167674, guid: 3bba95f8cce269e46aadffec9fdcddca, type: 2}
+  HUD: {fileID: 1253679818658554, guid: 049a9afcc63230d48b0153546d172aa3, type: 2}
+  deadPlayer: 
+  currentPhase: 0
+  currentPlayer: 0
