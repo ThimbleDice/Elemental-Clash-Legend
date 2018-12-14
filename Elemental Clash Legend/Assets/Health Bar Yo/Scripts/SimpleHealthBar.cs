@@ -111,9 +111,10 @@ public class SimpleHealthBar : MonoBehaviour
 		// If the bar image is left unassigned, then return.
 		if( barImage == null )
 			return;
-			
-		// Fix the value to be a percentage.
-		_currentFraction = currentValue / maxValue;
+
+
+        // Fix the value to be a percentage.
+        _currentFraction = currentValue / maxValue;
 
 		// If the value is greater than 1 or less than 0, then fix the values to being min/max.
 		if( _currentFraction < 0 || _currentFraction > 1 )
